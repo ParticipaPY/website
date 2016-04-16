@@ -24,12 +24,12 @@ if ($_GET["lang"] == "en"){
 		<div id="page-wrapper">
 
 			<!-- Header -->
-			<!-- 	<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Proyecto Participa <span>by HTML5 UP</span></a></h1>
+				<header id="header" class="alt">
+					<h1 id="logo"><a href="#top">Participa</a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Welcome</a></li>
-							<li class="submenu">
+							<!-- <li class="current"><a href="index.html">Welcome</a></li> -->
+							<!-- <li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
 									<li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -47,11 +47,14 @@ if ($_GET["lang"] == "en"){
 										</ul>
 									</li>
 								</ul>
-							</li>
-							<li><a href="#" class="button special">Sign Up</a></li>
+							</li> -->
+							<li><a href="#resultados" class="button"><?php echo $menu["resultados"]; ?></a></li>
+							<li><a href="#experiencias" class="button"><?php echo $menu["experiencias"]; ?></a></li>
+							<li><a href="#soluciones" class="button"><?php echo $menu["soluciones"]; ?></a></li>
+							<li><a href="#equipo" class="button"><?php echo $menu["equipo"]; ?></a></li>
 						</ul>
 					</nav>
-				</header> -->
+				</header>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -84,14 +87,14 @@ if ($_GET["lang"] == "en"){
 			<!-- Main -->
 				<article id="main">
 
-					<header class="special container">
+					<!-- <header class="special container">
 						<span class="icon fa-comment"></span>
 						<h2><?php echo $t_presentacion;?></h2>
 
-					</header>
+					</header> -->
 
 <!-- PRESENTACION -->
-						<section class="wrapper style2 container special-alt">
+						<section class="wrapper style2 container special-alt" id="presentacion">
 							<div class="row 50%">
 								<div class="8u 12u(narrower)">
 
@@ -128,7 +131,7 @@ if ($_GET["lang"] == "en"){
 						</section>
 
 <!-- RESULTADOS ESPERADOS -->
-						<section class="wrapper style1 container special">
+						<section class="wrapper style1 container special" id="resultados">
 							<header class="special container">
 						<span class="icon fa-bar-chart-o"></span>
 						<h2><?php echo $t_resultados; ?></h2>
@@ -196,7 +199,7 @@ if ($_GET["lang"] == "en"){
 						</section>
 
 <!-- EXPERIENCIAS PREVIAS -->
-						<section class="wrapper style3 container special">
+						<section class="wrapper style3 container special" id="experiencias">
 
 							<header class="major">
 								<h2><?php echo $t_experiencias_previas; ?></h2>
@@ -239,7 +242,7 @@ if ($_GET["lang"] == "en"){
 						</section>
 
 <!-- SOLUCIONES TECNOLOGICAS -->
-						<section class="wrapper style3 container special">
+						<section class="wrapper style3 container special" id="soluciones">
 
 							<header class="major">
 								<h2><?php echo $t_soluciones; ?></h2>
@@ -285,69 +288,82 @@ if ($_GET["lang"] == "en"){
 
 <!-- EQUIPO -->
 				<section id="cta">
-					<header class="major">
+					<header class="major" id="equipo">
 								<h2><?php echo $t_equipo; ?></h2>
 							</header>
 
 							<div class="row">
-								<div class="6u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/luca.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_1["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_1["descripcion"]; ?>
 										</p>
+										<!-- <footer> -->
+											<ul class="icons">
+												<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+												<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+											</ul>
+										<!-- </footer> -->
 									</section>
-
 								</div>
-								<div class="6u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/jorge.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_2["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_2["descripcion"]; ?>
 										</p>
+										<!-- <footer> -->
+											<ul class="icons">
+												<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+												<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+											</ul>
+										<!-- </footer> -->
 									</section>
-
 								</div>
-								
-							</div>
-							<div class="row">
-								<div class="6u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/vicenzo.jpg" alt="" /></a>
 										<!-- <header>
 											<h4><?php echo $miembro_3["nombre"]; ?></h4>
 										</header> -->
-										<p style="font-size: 10pt;">
+										<p style="font-size: 9pt;">
 											<?php echo $miembro_3["descripcion"]; ?>
 										</p>
 									</section>
 								</div>
-								<div class="6u 12u(narrower)">								
+								
+							</div>
+							<div class="row">
+								<div class="4u 12u(narrower)">								
 									<section>
 										<a href="#" class="image featured"><img src="images/cristian.jpg" alt="" /></a>
 										<!-- <header>
 											<h4><?php echo $miembro_4["nombre"]; ?></h4>
 										</header> -->
-										<p style="font-size: 10pt;">
+										<p style="font-size: 9pt;">
 											<?php echo $miembro_4["descripcion"]; ?>
 										</p>
 									</section>
 								</div>								
-							</div>
-							<div class="row">
+							
 								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/marcelo.jpg" alt="" /></a>
 										<!-- <header>
 											<h4><?php echo $miembro_6["nombre"]; ?></h4>
 										</header> -->
-										<p style="font-size: 10pt;">
+										<p style="font-size: 9pt;">
 											<?php echo $miembro_6["descripcion"]; ?>
 										</p>
 									</section>
@@ -358,7 +374,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header>
 											<h4><?php echo $miembro_5["nombre"]; ?></h4>
 										</header> -->
-										<p style="font-size: 10pt;">
+										<p style="font-size: 9pt;">
 											<?php echo $miembro_5["descripcion"]; ?>
 										</p>
 									</section>
@@ -369,7 +385,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header>
 											<h4><?php echo $miembro_7["nombre"]; ?></h4>
 										</header> -->
-										<p style="font-size: 10pt;">
+										<p style="font-size: 9pt;">
 											<?php echo $miembro_7["descripcion"]; ?>
 										</p>
 									</section>

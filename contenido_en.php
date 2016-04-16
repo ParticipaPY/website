@@ -8,14 +8,24 @@ $nombre = "Participa Project";
 $descripcion = "Research Poject focused on promoting civic participation on public sector innovation";
 
 
+//Texto a ser mostrado en el menu de navegacion
+$menu = array(
+		"presentacion" => "Presentation",
+		"resultados" => "Expected Results",
+		"experiencias" => "Previous Exp.",
+		"soluciones" => "Tech Solutions",
+		"equipo" => "Team"
+	);
+
+
 // Titulo de la seccion de presentacion
 $t_presentacion = "Presentation";
 
 
 // Texto de presentacion
-$presentacion = "The question we ask ourselves in this project is: Which technology tools and processes can be used to generate altenative, convenient, affordable, and accesible civic participation spaces in Paraguay? Spaces that fit to Paraguay's social-economic-cultural context and allow citizens gathering for discussing solutions, proposals or just ideas concerning common interest issues. (e.g., public transportation, sanitary system).<br>
+$presentacion = "The question we ask ourselves in this project is: Which technology tools and processes can be used to generate altenative, convenient, affordable, and accesible civic participation spaces in Paraguay? Spaces that fit to Paraguay's social-economic-cultural context and allow citizens gathering for discussing solutions, proposals or just ideas concerning common interest issues. (e.g., public transportation, sanitary system).<br><br>
 
-	Participa is a 2-year-long research project funded by the CONACYT (The National Council for Science and Technology from Paraguay) and driven by a multidisciplinary team of Informatics and Sociology proffesors, researchers and technicians from Universidad Católica de Asunción (UCA), Paraguay and Universidad de Trento (UniTN), Italia.<br>
+	Participa is a 2-year-long research project funded by the CONACYT (The National Council for Science and Technology from Paraguay) and driven by a multidisciplinary team of Informatics and Sociology proffesors, researchers and technicians from Universidad Católica de Asunción (UCA), Paraguay and Universidad de Trento (UniTN), Italia.<br><br>
 
 	To do so, first we pretend to explore similar intiatives already proposed in other countries. Later, we will try to understand, through a pilot study, the motivation, the different ways and the scope of civic participation using technology platforms in Paraguay. Finally, we will focus on modeling, designing, developing and implementing technologycal applications and systems, as well as processes, that allow paraguayan citizens to take an active role on the ideation of solutions for common interest issues.";
 

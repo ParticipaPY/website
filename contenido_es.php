@@ -8,14 +8,24 @@ $nombre = "Proyecto Participa";
 $descripcion = "Proyecto de Investigacion enfocado en fomentar la participacion ciudadana en la innovacion del sector publico";
 
 
+//Texto a ser mostrado en el menu de navegacion
+$menu = array(
+		"presentacion" => "Presentacion",
+		"resultados" => "Resultados Esp.",
+		"experiencias" => "Experiencias Prev.",
+		"soluciones" => "Soluciones Tec.",
+		"equipo" => "Equipo"
+	);
+
+
 // Titulo de la seccion de presentacion
 $t_presentacion = "Presentacion del Proyecto";
 
 
 // Texto de presentacion
-$presentacion = "La pregunta que nos hacemos en el proyecto Participa es, ¿qué herramientas tecnológicas y procesos pueden ser utilizados para generar en Paraguay espacios alternativos, convenientes, económicos, y accesibles de participación cívica? Espacios que adaptados al contexto social, económico, y cultural del Paraguay permitan a la ciudadanía congregarse a discutir soluciones, propuestas  o simplemente ideas sobre problemáticas de interés público (p.ej., el transporte público, el sistema sanitario).<br>
+$presentacion = "La pregunta que nos hacemos en el proyecto Participa es, ¿qué herramientas tecnológicas y procesos pueden ser utilizados para generar en Paraguay espacios alternativos, convenientes, económicos, y accesibles de participación cívica? Espacios que adaptados al contexto social, económico, y cultural del Paraguay permitan a la ciudadanía congregarse a discutir soluciones, propuestas  o simplemente ideas sobre problemáticas de interés público (p.ej., el transporte público, el sistema sanitario).<br><br>
 
-	Participa es una proyecto de investigación de 2 años financiado por el Consejo Nacional de Ciencia y Tecnología (CONACYT) de Paraguay llevado adelante por un equipo multidisciplinario de profesores, investigadores y técnicos del área de Informática y Sociología de la Universidad Católica de Asunción (UCA), Paraguay y de la Universidad de Trento (UniTN), Italia.<br>
+	Participa es una proyecto de investigación de 2 años financiado por el Consejo Nacional de Ciencia y Tecnología (CONACYT) de Paraguay llevado adelante por un equipo multidisciplinario de profesores, investigadores y técnicos del área de Informática y Sociología de la Universidad Católica de Asunción (UCA), Paraguay y de la Universidad de Trento (UniTN), Italia.<br><br>
 
 	Para ello pretendemos, en un primer momento, explorar iniciativas similares ya planteadas en otros países. Más tarde buscaremos entender a través de experiencias prácticas (estudios pilotos) las motivaciones, formas y alcances de la participación ciudadana a través de plataformas tecnológicas en Paraguay. Finalmente, nos enfocaremos en modelar, diseñar, desarrollar e implementar sistemas y aplicaciones tecnológicas, así como también procesos, que permitan al ciudadano paraguayo tomar parte activa en la ideación de innovaciones y soluciones a problemáticas de interés general.";
 
@@ -78,12 +88,12 @@ $t_equipo = "Equipo de Trabajo";
 // Miembros del equipo de trabajo
 
 $miembro_2 = array(
-		"nombre" => "Ing. Jorge Saldivar (UniTN/UCA)<br>Investigador Asociado",
+		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Trabaja en el área de Social Informatics, más precisamente en temas como civic technology, democratic innovation, crowdsourcing, idea management, y redes sociales. Parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia), sus experiencias previas incluyen trabajos de colaboración con el Information Analytics Research Group de Hewlett-Packard (Palo Alto, USA), con el Data and Democracy Research Group de la Universidad de California (Berkeley, USA), y con investigadores del Brown Institute for Media Innovation de la Universidad de Stanford (Palo Alto, USA). Contactos: jorgesaldivar@gmail.com"
 	);
 
 $miembro_1 = array(
-		"nombre" => "Prof. Dr. Luca Cernuzzi (UCA, Paraguay)<br>Investigador Principal y Director de proyecto.",
+		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Investigador Principal y Director de proyecto.",
 		"descripcion" => "Doctor en Ingeniería de la Universitá di Modena e Reggio Emilia, Italia, habiendo  realizado previamente estudios de grado en Ciencias Informáticas en la Universitá degli Studi di Milano, Italia. Su área de actuación se sitúa en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Ha dirigido una cantidad significativa de monografías de grado finalizadas y orientado a jóvenes docentes. Actualmente es co-tutor de trabajo de tesis de estudiantes de doctorado. Se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción."
 	);
 
