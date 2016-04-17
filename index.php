@@ -117,6 +117,7 @@ if ($_GET["lang"] == "en"){
 										<li><img src="images/micro.jpg"></li>
 										<li><img src="images/phone.jpg"></li>
 										<li><img src="images/dengue.jpg"></li>
+										<li><img src="images/dengue.jpg"></li>
 										<!-- <li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
 										<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
 										<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
@@ -137,60 +138,75 @@ if ($_GET["lang"] == "en"){
 						<h2><?php echo $t_resultados; ?></h2>
 					</header>
 							<div class="row">
-								<div class="3u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<!-- <span class="icon featured fa-check"></span> -->
 										<!-- <header>
 											<h3>This is Something</h3>
 										</header> -->
-										<p><?php echo $resultados[0];?></p>
+										<ul class="featured-icons">
+											<li><img src="images/micro.jpg"></li>
+										</ul>
+										<p style="font-size: 10pt;"><?php echo $resultados[0];?></p>
 									</section>
 
 								</div>
-								<div class="6u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<!-- <span class="icon featured fa-check"></span> -->
 										<!-- <header>
 											<h3>Also Something</h3>
 										</header> -->
-										<p><?php echo $resultados[1];?></p>
+										<ul class="featured-icons">
+											<li><img src="images/micro.jpg"></li>
+										</ul>
+										<p style="font-size: 10pt;"><?php echo $resultados[1];?></p>
 									</section>
 
 								</div>
-								<div class="3u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<!-- <span class="icon featured fa-check"></span> -->
 										<!-- <header>
 											<h3>Probably Something</h3>
 										</header> -->
-										<p><?php echo $resultados[2];?></p>
+										<ul class="featured-icons">
+											<li><img src="images/micro.jpg"></li>
+										</ul>
+										<p style="font-size: 10pt;"><?php echo $resultados[2];?></p>
 									</section>
 
 								</div>
 							</div>
 							<div class="row">
-								<div class="6u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<!-- <span class="icon featured fa-check"></span> -->
 										<!-- <header>
 											<h3>This is Something</h3>
 										</header> -->
-										<p><?php echo $resultados[3];?></p>
+										<ul class="featured-icons">
+											<li><img src="images/micro.jpg"></li>
+										</ul>
+										<p style="font-size: 10pt;"><?php echo $resultados[3];?></p>
 									</section>
 
 								</div>
-								<div class="6u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<!-- <span class="icon featured fa-check"></span> -->
 										<!-- <header>
 											<h3>Also Something</h3>
 										</header> -->
-										<p><?php echo $resultados[4];?></p>
+										<ul class="featured-icons">
+											<li><img src="images/micro.jpg"></li>
+										</ul>
+										<p style="font-size: 10pt;"><?php echo $resultados[4];?></p>
 									</section>
 
 								</div>
@@ -304,10 +320,11 @@ if ($_GET["lang"] == "en"){
 										</p>
 										<!-- <footer> -->
 											<ul class="icons">
-												<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-												<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
 											</ul>
 										<!-- </footer> -->
 									</section>
@@ -323,10 +340,11 @@ if ($_GET["lang"] == "en"){
 										</p>
 										<!-- <footer> -->
 											<ul class="icons">
-												<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-												<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
 											</ul>
 										<!-- </footer> -->
 									</section>
@@ -334,12 +352,20 @@ if ($_GET["lang"] == "en"){
 								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/vicenzo.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_3["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_3["descripcion"]; ?>
 										</p>
+										<ul class="icons">
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
+										</ul>
+
 									</section>
 								</div>
 								
@@ -348,46 +374,74 @@ if ($_GET["lang"] == "en"){
 								<div class="4u 12u(narrower)">								
 									<section>
 										<a href="#" class="image featured"><img src="images/cristian.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_4["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_4["descripcion"]; ?>
 										</p>
+										<ul class="icons">
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
+										</ul>
 									</section>
 								</div>								
 							
 								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/marcelo.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_6["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_6["descripcion"]; ?>
 										</p>
+										<ul class="icons">
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
+										</ul>
 									</section>
 								</div>
 								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/camilo.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_5["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_5["descripcion"]; ?>
 										</p>
+										<ul class="icons">
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
+											</ul>
 									</section>
 								</div>
 								<div class="4u 12u(narrower)">
 									<section>
 										<a href="#" class="image featured"><img src="images/rebeca.jpg" alt="" /></a>
-										<!-- <header>
+										<!-- <header> -->
 											<h4><?php echo $miembro_7["nombre"]; ?></h4>
-										</header> -->
+										<!-- </header> -->
 										<p style="font-size: 9pt;">
 											<?php echo $miembro_7["descripcion"]; ?>
 										</p>
+										<ul class="icons">
+												<li><a href="#" class="icon fa-twitter-square"><!-- <span class="label">Twitter</span> --></a></li>
+												<li><a href="#" class="icon fa-facebook-official"></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"></a></li>
+												<li><a href="#" class="icon fa-envelope"></a></li>
+												<li><a href="#" class="icon fa-globe"></a></li>
+											</ul>
 									</section>
 								</div>
 							</div>

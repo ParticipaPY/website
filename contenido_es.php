@@ -98,28 +98,28 @@ $miembro_1 = array(
 	);
 
 $miembro_3 = array(
-		"nombre" => "Prof. Dr. Vincenzo D’Andrea (UniTN, Italia)<br>Investigador Asociado",
+		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
 		"descripcion" => "Profesor Asociado en la  Università degli Studi di Trento. Miembro del Dipartimento di Ingegneria e Scienza dell'Informazione. Se desempeña como profesor en el Dipartimento di Sociologia e Ricerca Sociale y en el Dipartimento di Ingegneria e Scienza dell'Informazione. Vicecoordinador ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte del EIT ICT Labs Doctoral School )."
 	);
 
 $miembro_4 = array(
-		"nombre" => "Dr. Cristhian Parra (UC, Berkeley, EEUU)<br>Investigador Asociado
+		"nombre" => "Dr. Cristhian Parra<br>(UC, Berkeley, EEUU)<br>Investigador Asociado
 ",
 		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información en la Università degli Studi di Trento. Se desempeña como Ingeniero de Software en la Universidad de Berkeley y en Inria (Institut National de Recherche en Informatique et en Automatique), de Francia. Su trabajo se centra en las multidisciplinarias áreas de Informática Social-Comunitaria e Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa."
 	);
 
 $miembro_5 = array(
-		"nombre" => "Msc. Camilo Caballero (U. de Salamanca, España)<br>Investigador Asociado",
+		"nombre" => "Msc. Camilo Caballero<br>(U. de Salamanca, España)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Lógica y Filosofía de la Ciencia. Sus áreas son Estudios Sociales de la Ciencia y la Tecnología; TICs y Desarrollo Local; Gestión de Estado. Se desempeña como asistente de coordinación en proyecto Enfoque Territorial y en el Servicio de Apoyo Indígena. Ha sido acesor de coordinación y comunicación en el CADEP (Centro de Análisis y Difusion de la Economia Paraguaya) y Consultor en el programa Semillas Para la Democracia."
 	);
 
 $miembro_6 = array(
-		"nombre" => "Lic. Marcelo Alcaraz (UCA)<br>Investigador Junior",
+		"nombre" => "Lic. Marcelo Alcaraz<br>(UCA, Paraguay)<br>Investigador Junior",
 		"descripcion" => "Ha culminado la Licenciatura en Informática en la Universidad Católica Nuestra Señora de la Asunción. Se integra al proyecto como investigador junior inciando con este su proyecto de fin de carrera para obtener el título de grado en Ingeniería."
 	);
 
 $miembro_7 = array(
-		"nombre" => "Lic. Rebeca Arteta (UCA)<br>Investigadora Junior",
+		"nombre" => "Lic. Rebeca Arteta<br>(UCA, Paraguay)<br>Investigadora Junior",
 		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica Nuestra Señora de la Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de desarrollo de software."
 	);
 
