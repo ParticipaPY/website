@@ -315,7 +315,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_1["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_1["descripcion"]; ?>
 										</p>
 										<!-- <footer> -->
@@ -335,7 +335,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_2["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_2["descripcion"]; ?>
 										</p>
 										<!-- <footer> -->
@@ -355,7 +355,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_3["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_3["descripcion"]; ?>
 										</p>
 										<ul class="icons">
@@ -377,7 +377,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_4["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_4["descripcion"]; ?>
 										</p>
 										<ul class="icons">
@@ -396,7 +396,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_6["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_6["descripcion"]; ?>
 										</p>
 										<ul class="icons">
@@ -414,7 +414,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_5["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_5["descripcion"]; ?>
 										</p>
 										<ul class="icons">
@@ -432,7 +432,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <header> -->
 											<h4><?php echo $miembro_7["nombre"]; ?></h4>
 										<!-- </header> -->
-										<p style="font-size: 9pt;">
+										<p style="font-size: 10pt;">
 											<?php echo $miembro_7["descripcion"]; ?>
 										</p>
 										<ul class="icons">
