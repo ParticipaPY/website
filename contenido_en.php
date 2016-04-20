@@ -42,9 +42,10 @@ $resultados = array(
 	"To identify social-impact problem scenarios on which citizes are interested on collaborating with the government to find solutions",
 
 	"To extend the existing literature with new knowledge about the problem of Civic participation using technology on latin-american sociocultural contexts. In particular we hope to increase the understaing about excecuting collaborative processes of the public sector innovation",
-	"To implement civic participation processes that allow civic society involvement on the public sector innovation",
 
 	"To make accesible and convenient technology solutions that are adapted to national context and can be used as alterative means of civic participacion, through which the gorvernment and citizens could work together on the innovation of public goods and services.",
+
+	"To implement civic participation processes that allow civic society involvement on the public sector innovation",
 
 	"Validate the solution as a low-cost and permanent platform that complements civic participation on the public sector innovation",
 	);

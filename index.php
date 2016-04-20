@@ -160,7 +160,7 @@ if ($_GET["lang"] == "en"){
 								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-users"></span>
+										<span class="icon featured fa-laptop"></span>
 										<!-- <header>
 											<h3>Probably Something</h3>
 										</header> -->
@@ -176,7 +176,7 @@ if ($_GET["lang"] == "en"){
 								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-laptop"></span>
+										<span class="icon featured fa-users"></span>
 										<!-- <header>
 											<h3>This is Something</h3>
 										</header> -->
