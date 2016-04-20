@@ -11,10 +11,11 @@ $descripcion = "Proyecto de Investigacion enfocado en fomentar la participacion 
 //Texto a ser mostrado en el menu de navegacion
 $menu = array(
 		"presentacion" => "Presentacion",
-		"resultados" => "Resultados Esp.",
-		"experiencias" => "Experiencias Prev.",
-		"soluciones" => "Soluciones Tec.",
-		"equipo" => "Equipo"
+		"resultados" => "Resultados Esperados",
+		"experiencias" => "Experiencias Previas",
+		"soluciones" => "Soluciones Tecnológicas",
+		"equipo" => "Equipo",
+		"contactos" => "Contactos"
 	);
 
 
@@ -87,7 +88,7 @@ $t_equipo = "Equipo de Trabajo";
 
 // Miembros del equipo de trabajo
 
-$miembro_2 = array(
+$miembro_3 = array(
 		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Trabaja en el área de Social Informatics, más precisamente en temas como civic technology, democratic innovation, crowdsourcing, idea management, y redes sociales. Parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia), sus experiencias previas incluyen trabajos de colaboración con el Information Analytics Research Group de Hewlett-Packard (Palo Alto, USA), con el Data and Democracy Research Group de la Universidad de California (Berkeley, USA), y con investigadores del Brown Institute for Media Innovation de la Universidad de Stanford (Palo Alto, USA). Contactos: jorgesaldivar@gmail.com"
 	);
@@ -97,7 +98,7 @@ $miembro_1 = array(
 		"descripcion" => "Doctor en Ingeniería de la Universitá di Modena e Reggio Emilia, Italia, habiendo  realizado previamente estudios de grado en Ciencias Informáticas en la Universitá degli Studi di Milano, Italia. Su área de actuación se sitúa en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Ha dirigido una cantidad significativa de monografías de grado finalizadas y orientado a jóvenes docentes. Actualmente es co-tutor de trabajo de tesis de estudiantes de doctorado. Se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción."
 	);
 
-$miembro_3 = array(
+$miembro_2 = array(
 		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
 		"descripcion" => "Profesor Asociado en la  Università degli Studi di Trento. Miembro del Dipartimento di Ingegneria e Scienza dell'Informazione. Se desempeña como profesor en el Dipartimento di Sociologia e Ricerca Sociale y en el Dipartimento di Ingegneria e Scienza dell'Informazione. Vicecoordinador ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte del EIT ICT Labs Doctoral School )."
 	);

@@ -12,9 +12,10 @@ $descripcion = "Research Poject focused on promoting civic participation on publ
 $menu = array(
 		"presentacion" => "Presentation",
 		"resultados" => "Expected Results",
-		"experiencias" => "Previous Exp.",
-		"soluciones" => "Tech Solutions",
-		"equipo" => "Team"
+		"experiencias" => "Previous Experiences",
+		"soluciones" => "Technology Solutions",
+		"equipo" => "Team",
+		"contactos" => "Contact Us"
 	);
 
 
@@ -87,7 +88,7 @@ $t_equipo = "Team";
 
 // Miembros del equipo de trabajo
 
-$miembro_2 = array(
+$miembro_3 = array(
 		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
 		"descripcion" => "
 			Candidate for a Ph.D degree on Information and Communications Technology on the Trento University and the Catholic University of Asunción. He works on Social Informatics, more precisely on topics such as civic technology, democratic innovation, crowdsourcing, idea management and social networks. Member of the Life Participation Research Group of the Trento University (Trento, Italy), his previous experiences  include collaboration works with Hewlett-Packard's Information Analytics Research Group (Palo Alto, USA), with the Data and Democracy Research Group of California University (Berkeley, USA), and with researchers from the Brown Institute for Media Innovation of the Stanford University (Palo Alto, USA). Contact: jorgesaldivar@gmail.com"
@@ -98,8 +99,8 @@ $miembro_1 = array(
 		"descripcion" => "Ph.D. on Engineering from the Universitá di Modena e Reggio Emilia, Italy, with a previous degree on Computer Science from Universitá degli Studi di Milano, Italy. His area of operation include Software Engineering, Agents, Support Technology for people with special needs, Educational Informatics, Web Technology and Hypermedia. He has published his works on magazines, books, and international and local events. He has directed an important number of finished degree monographs orieted to young teachers. Nowadays he is co-supervisor of Ph.D. degree works. He performs as the dean of the Facultad de Ciencias y Tecnologías at the Universidad Católica de Asunción."
 	);
 
-$miembro_3 = array(
-		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia0<br>Investigador Asociado",
+$miembro_2 = array(
+		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
 		"descripcion" => "Associate Professor at the Università degli Studi di Trento. Member of the Dipartimento di Ingegneria e Scienza dell'Informazione. Teaching at the Dipartimento di Sociologia e Ricerca Sociale and at the Dipartimento di Ingegneria e Scienza dell'Informazione. Vice-Coordinator of the ICT International Doctoral School. Scientific Director of the Doctoral Training Center on ICT for Quality of Life (part of the EIT ICT Labs Doctoral School)"
 	);
 
