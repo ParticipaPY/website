@@ -5,7 +5,8 @@ $nombre = "Participa Project";
 
 
 // Breve descripcion del proyecto
-$descripcion = "Research Poject focused on promoting civic participation on public sector innovation";
+//              Impulsando la creación de espacio alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales"
+$descripcion = "Promoting the creation of alternative spaces of civic participation focused on finding solutions to social problems";
 
 
 //Texto a ser mostrado en el menu de navegacion
@@ -24,7 +25,7 @@ $t_presentacion = "Presentation";
 
 
 // Texto de presentacion
-$presentacion = "The question we ask ourselves in this project is: Which technology tools and processes can be used to generate altenative, convenient, affordable, and accesible civic participation spaces in Paraguay? Spaces that fit to Paraguay's social-economic-cultural context and allow citizens gathering for discussing solutions, proposals or just ideas concerning common interest issues. (e.g., public transportation, sanitary system).<br><br>
+$presentacion = "The question we ask ourselves in this project is: <b>Which technology tools and processes can be used to generate altenative, convenient, affordable, and accesible civic participation spaces in Paraguay?</b> Spaces that fit to Paraguay's social-economic-cultural context and allow citizens gathering for discussing solutions, proposals or just ideas concerning common interest issues. (e.g., public transportation, sanitary system).<br><br>
 
 	Participa is a 2-year-long research project funded by the CONACYT (The National Council for Science and Technology from Paraguay) and driven by a multidisciplinary team of Informatics and Sociology proffesors, researchers and technicians from Universidad Católica de Asunción (UCA), Paraguay and Universidad de Trento (UniTN), Italia.<br><br>
 
@@ -67,7 +68,7 @@ $exp_prev_1 = array(
 
 
 // Titulo de la Seccion de soluciones tecnologicas
-$t_soluciones = "Technological Solutions";
+$t_soluciones = "Technology Solutions";
 
 // Soluciones Tecnologicas
 $sol_tec_1 = array(

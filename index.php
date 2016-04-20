@@ -25,33 +25,15 @@ if ($_GET["lang"] == "en"){
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="#top">Participa</a></h1>
+					<h1 id="logo">
+						<a href="./?lang=en" class="image"><img class="flag flag-us" alt="" /></a>
+						<a href="./?lang=es" class="image"><img class="flag flag-py" alt="" /></a>
+
+					</h1>
 
 					<nav id="nav">
 						<ul>
-							<!-- <li class="current"><a href="index.html">Welcome</a></li> -->
-							<li class="submenu">
-								<a href="#">LANG</a>
-								<ul>
-									<li><a href="./?lang=en" class="image"><img class="flag flag-us" alt="" /> English</a></li>
-									<li><a href="./?lang=es" class="image"><img class="flag flag-py" alt="" /> Español</a></li>
-									<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li> -->
-									<!-- <li class="submenu">
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Dolore Sed</a></li>
-											<li><a href="#">Consequat</a></li>
-											<li><a href="#">Lorem Magna</a></li>
-											<li><a href="#">Sed Magna</a></li>
-											<li><a href="#">Ipsum Nisl</a></li>
-										</ul>
-									</li> -->
-								</ul>
-							</li>
-							
+
 							<!-- <li><a href="./?lang=en" class="image"><img class="flag flag-us" alt="" /></a></li>
 							<li><a href="./?lang=es" class="image"><img class="flag flag-py" alt="" /></a></li> -->
 							<li><a href="#resultados" class="button"><?php echo $menu["resultados"]; ?></a></li>
@@ -105,9 +87,9 @@ if ($_GET["lang"] == "en"){
 							<div class="row 50%">
 								<div class="8u 12u(narrower)">
 
-									<header>
+								<!-- 	<header>
 										<h2>PARTICIPA</h2></h2>
-									</header>
+									</header> -->
 									<p style="text-align : justify;">
 										<?php echo $presentacion;?>
 									</p>

@@ -5,7 +5,7 @@ $nombre = "Proyecto Participa";
 
 
 // Breve descripcion del proyecto
-$descripcion = "Proyecto de Investigacion enfocado en fomentar la participacion ciudadana en la innovacion del sector publico";
+$descripcion = "Impulsando la creación de espacio alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales";
 
 
 //Texto a ser mostrado en el menu de navegacion
@@ -24,7 +24,7 @@ $t_presentacion = "Presentacion del Proyecto";
 
 
 // Texto de presentacion
-$presentacion = "La pregunta que nos hacemos en el proyecto Participa es, ¿qué herramientas tecnológicas y procesos pueden ser utilizados para generar en Paraguay espacios alternativos, convenientes, económicos, y accesibles de participación cívica? Espacios que adaptados al contexto social, económico, y cultural del Paraguay permitan a la ciudadanía congregarse a discutir soluciones, propuestas  o simplemente ideas sobre problemáticas de interés público (p.ej., el transporte público, el sistema sanitario).<br><br>
+$presentacion = "La pregunta que nos hacemos en el proyecto Participa es, <b>¿qué herramientas tecnológicas y procesos pueden ser utilizados para generar en Paraguay espacios alternativos, convenientes, económicos, y accesibles de participación cívica?</b> Espacios que adaptados al contexto social, económico, y cultural del Paraguay permitan a la ciudadanía congregarse a discutir soluciones, propuestas  o simplemente ideas sobre problemáticas de interés público (p.ej., el transporte público, el sistema sanitario).<br><br>
 
 	Participa es una proyecto de investigación de 2 años financiado por el Consejo Nacional de Ciencia y Tecnología (CONACYT) de Paraguay llevado adelante por un equipo multidisciplinario de profesores, investigadores y técnicos del área de Informática y Sociología de la Universidad Católica de Asunción (UCA), Paraguay y de la Universidad de Trento (UniTN), Italia.<br><br>
 
@@ -42,9 +42,9 @@ $resultados = array(
 
 	"Extender de la literatura con nuevos conocimientos respecto a la problemática de participación ciudadana, mediada por la tecnología, en realidades socio-culturales latinoamericanas, en particular se espera ampliar el entendimiento respecto a la ejecución de procesos colaborativos de innovación en el sector público en Paraguay.",
 
-	"Implementar procesos de participación cívica que permitirán involucrar a la sociedad civil en la innovación del sector público.",
-
 	"Crear soluciones tecnológicas accesibles, convenientes y adaptadas al contexto nacional que sirvan como medios alternativos de participación ciudadana a través de las cuales el gobierno y la ciudadanía puedan colaborar en la creación de innovaciones para los bienes y servicios públicos.",
+
+	"Implementar procesos de participación cívica que permitirán involucrar a la sociedad civil en la innovación del sector público.",
 
 	"Validar la solución como plataforma permanente, poco costosa y complementaria de participación ciudadana en la innovación del sector público."
 	);
@@ -100,7 +100,7 @@ $miembro_1 = array(
 
 $miembro_2 = array(
 		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
-		"descripcion" => "Profesor Asociado en la  Università degli Studi di Trento. Miembro del Dipartimento di Ingegneria e Scienza dell'Informazione. Se desempeña como profesor en el Dipartimento di Sociologia e Ricerca Sociale y en el Dipartimento di Ingegneria e Scienza dell'Informazione. Vicecoordinador ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte del EIT ICT Labs Doctoral School )."
+		"descripcion" => "Profesor Asociado en la  Università degli Studi di Trento. Miembro del Dipartimento di Ingegneria e Scienza dell'Informazione. Se desempeña como profesor en el Dipartimento di Sociologia e Ricerca Sociale y en el Dipartimento di Ingegneria e Scienza dell'Informazione. Vicecoordinador ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte de EIT ICT Labs Doctoral School )."
 	);
 
 $miembro_4 = array(
