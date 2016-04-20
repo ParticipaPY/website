@@ -5,7 +5,7 @@ $nombre = "Proyecto Participa";
 
 
 // Breve descripcion del proyecto
-$descripcion = "Impulsando la creación de espacio alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales";
+$descripcion = "Impulsando la creación de espacios alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales";
 
 
 //Texto a ser mostrado en el menu de navegacion
@@ -106,7 +106,7 @@ $miembro_2 = array(
 $miembro_4 = array(
 		"nombre" => "Dr. Cristhian Parra<br>(UC, Berkeley, EEUU)<br>Investigador Asociado
 ",
-		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información en la Università degli Studi di Trento. Se desempeña como Ingeniero de Software en la Universidad de Berkeley y en Inria (Institut National de Recherche en Informatique et en Automatique), de Francia. Su trabajo se centra en las multidisciplinarias áreas de Informática Social-Comunitaria e Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa."
+		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Università degli Studi di Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de Berkeley, y en el Inria (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
 	);
 
 $miembro_5 = array(
