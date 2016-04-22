@@ -5,17 +5,17 @@ $nombre = "Proyecto Participa";
 
 
 // Breve descripcion del proyecto
-$descripcion = "Impulsando la creación de espacios alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales";
+$descripcion = "Construyendo espacios de participación ciudadana por medio de la tecnología";
 
 
 //Texto a ser mostrado en el menu de navegacion
 $menu = array(
 		"presentacion" => "Presentacion",
 		"resultados" => "Resultados Esperados",
-		"experiencias" => "Experiencias Previas",
-		"soluciones" => "Soluciones Tecnológicas",
+		"experiencias" => "Casos de Estudio",
+		"soluciones" => "Soluciones",
 		"equipo" => "Equipo",
-		"contactos" => "Contactos"
+		"contactos" => "Contacto"
 	);
 
 
@@ -51,7 +51,7 @@ $resultados = array(
 
 
 // Titulo de la seccion de Experiencias Previas Relacionadas
-$t_experiencias_previas = "Experiencias Previas Relacionadas";
+$t_experiencias_previas = "Casos de Estudio";
 
 
 // Experiencias previas
@@ -68,7 +68,7 @@ $exp_prev_1 = array(
 
 
 // Titulo de la Seccion de soluciones tecnologicas
-$t_soluciones = "Soluciones Tecnológicas";
+$t_soluciones = "Soluciones";
 
 // Soluciones Tecnologicas
 $sol_tec_1 = array(
@@ -90,38 +90,38 @@ $t_equipo = "Equipo de Trabajo";
 
 $miembro_3 = array(
 		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
-		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Trabaja en el área de Social Informatics, más precisamente en temas como civic technology, democratic innovation, crowdsourcing, idea management, y redes sociales. Parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia), sus experiencias previas incluyen trabajos de colaboración con el Information Analytics Research Group de Hewlett-Packard (Palo Alto, USA), con el Data and Democracy Research Group de la Universidad de California (Berkeley, USA), y con investigadores del Brown Institute for Media Innovation de la Universidad de Stanford (Palo Alto, USA). Contactos: jorgesaldivar@gmail.com"
+		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Su trabajo se centran en el área de Social Computing aplicada a los dominios de civic participation, democratic innovation, crowdsourcing, open innovation, idea management, y redes sociales. Desde el 2011 es parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia)."
 	);
 
 $miembro_1 = array(
 		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Investigador Principal y Director de proyecto.",
-		"descripcion" => "Doctor en Ingeniería de la Universitá di Modena e Reggio Emilia, Italia, habiendo  realizado previamente estudios de grado en Ciencias Informáticas en la Universitá degli Studi di Milano, Italia. Su área de actuación se sitúa en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Ha dirigido una cantidad significativa de monografías de grado finalizadas y orientado a jóvenes docentes. Actualmente es co-tutor de trabajo de tesis de estudiantes de doctorado. Se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción."
+		"descripcion" => "Doctor en Ingeniería por la Universidad de Moderna y Reggio Emilia (Italia). Su trabajo se centra en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Actualmente se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción (Paraguay) y es co-tutor de trabajo de tesis de estudiantes de doctorado."
 	);
 
 $miembro_2 = array(
 		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
-		"descripcion" => "Profesor Asociado en la  Università degli Studi di Trento. Miembro del Dipartimento di Ingegneria e Scienza dell'Informazione. Se desempeña como profesor en el Dipartimento di Sociologia e Ricerca Sociale y en el Dipartimento di Ingegneria e Scienza dell'Informazione. Vicecoordinador ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte de EIT ICT Labs Doctoral School )."
+		"descripcion" => "Profesor Asociado en la  Universidad de Trento. Miembro del Departamento de Ingenieria y Ciencia de la Información. Se desempeña como profesor en el Departamento de Sociología e Investigación Social y en el Departamento de Ingeniera y Ciencia de la Computación. Vicecoordinador del ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte de EIT ICT Labs Doctoral School )."
 	);
 
 $miembro_4 = array(
 		"nombre" => "Dr. Cristhian Parra<br>(UC, Berkeley, EEUU)<br>Investigador Asociado
 ",
-		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Università degli Studi di Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de Berkeley, y en el Inria (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
+		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Universita de Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de Berkeley, y en el Inria (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
 	);
 
 $miembro_5 = array(
 		"nombre" => "Msc. Camilo Caballero<br>(U. de Salamanca, España)<br>Investigador Asociado",
-		"descripcion" => "Candidato a doctor en Lógica y Filosofía de la Ciencia. Sus áreas son Estudios Sociales de la Ciencia y la Tecnología; TICs y Desarrollo Local; Gestión de Estado. Se desempeña como asistente de coordinación en proyecto Enfoque Territorial y en el Servicio de Apoyo Indígena. Ha sido acesor de coordinación y comunicación en el CADEP (Centro de Análisis y Difusion de la Economia Paraguaya) y Consultor en el programa Semillas Para la Democracia."
+		"descripcion" => "Candidato a doctor en Lógica y Filosofía de la Ciencia. Sus áreas son Estudios Sociales de la Ciencia y la Tecnología; TICs y Desarrollo Local; Gestión de Estado. Se desempeña como asistente de coordinación de proyecto en la organización Enfoque Territorial y en el Servicio de Apoyo Indígena. Ha sido acesor de coordinación y comunicación en el CADEP (Centro de Análisis y Difusion de la Economia Paraguaya) y Consultor en el programa Semillas Para la Democracia."
 	);
 
 $miembro_6 = array(
 		"nombre" => "Lic. Marcelo Alcaraz<br>(UCA, Paraguay)<br>Investigador Junior",
-		"descripcion" => "Ha culminado la Licenciatura en Informática en la Universidad Católica Nuestra Señora de la Asunción. Se integra al proyecto como investigador junior inciando con este su proyecto de fin de carrera para obtener el título de grado en Ingeniería."
+		"descripcion" => "Ha culminado la Licenciatura en Informática en la Universidad Católica de Asunción. Se integra al proyecto como investigador junior inciando con este su proyecto de fin de carrera para obtener el título de grado en Ingeniería."
 	);
 
 $miembro_7 = array(
 		"nombre" => "Lic. Rebeca Arteta<br>(UCA, Paraguay)<br>Investigadora Junior",
-		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica Nuestra Señora de la Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de desarrollo de software."
+		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica de Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de desarrollo de software."
 	);
 
 // // Plantilla
