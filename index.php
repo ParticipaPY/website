@@ -383,7 +383,7 @@ if ($_GET["lang"] == "en"){
 												<li><a href="https://www.linkedin.com/in/cristhianparra" class="icon fa-linkedin-square"></a></li>
 												<li><a href="mailto:cdparra@gmail.com" class="icon fa-envelope"></a></li>
 												<li><a href="https://scholar.google.com.py/citations?user=t4dRkMYAAAAJ&hl=en&oi=ao" class="icon fa-graduation-cap"></a></li>
-												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
+												<li><a href="http://cdparra.info/" class="icon fa-globe"></a></li>
 										</ul>
 									</section>
 								</div>								
