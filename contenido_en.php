@@ -1,7 +1,7 @@
 <?php
 
 // Nombre del proyecto
-$nombre = "Participa Project";
+$nombre = "Participa";
 
 
 // Breve descripcion del proyecto
@@ -13,15 +13,15 @@ $descripcion = "Building spaces for civic participation through technology";
 $menu = array(
 		"presentacion" => "Presentation",
 		"resultados" => "Expected Results",
-		"experiencias" => "Previous Experiences",
-		"soluciones" => "Technology Solutions",
+		"experiencias" => "Use Cases",
+		"soluciones" => "Solutions",
 		"equipo" => "Team",
 		"contactos" => "Contact Us"
 	);
 
 
 // Titulo de la seccion de presentacion
-$t_presentacion = "Presentation";
+// $t_presentacion = "Presentation";
 
 
 // Texto de presentacion
@@ -33,7 +33,7 @@ $presentacion = "The question we ask ourselves in this project is: <b>Which tech
 
 
 // Titulo de la seccion de Resultados Esperados
-$t_resultados = "Expected Results";
+// $t_resultados = "Expected Results";
 
 
 // Resultados esperados
@@ -52,7 +52,7 @@ $resultados = array(
 
 
 // Titulo de la seccion de Experiencias Previas Relacionadas
-$t_experiencias_previas = "Related Previous Experiences";
+// $t_experiencias_previas = "Related Previous Experiences";
 
 
 // Experiencias previas
@@ -69,7 +69,7 @@ $exp_prev_1 = array(
 
 
 // Titulo de la Seccion de soluciones tecnologicas
-$t_soluciones = "Technology Solutions";
+// $t_soluciones = "Technology Solutions";
 
 // Soluciones Tecnologicas
 $sol_tec_1 = array(
@@ -86,7 +86,7 @@ $sol_tec_1 = array(
 
 
 // Titulo de la seccion de Equipo de Trabajo
-$t_equipo = "Team";
+// $t_equipo = "Team";
 
 // Miembros del equipo de trabajo
 

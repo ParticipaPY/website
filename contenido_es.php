@@ -1,7 +1,7 @@
 <?php
 
 // Nombre del proyecto
-$nombre = "Proyecto Participa";
+$nombre = "Participa";
 
 
 // Breve descripcion del proyecto
@@ -20,7 +20,7 @@ $menu = array(
 
 
 // Titulo de la seccion de presentacion
-$t_presentacion = "Presentacion del Proyecto";
+// $t_presentacion = "Presentacion del Proyecto";
 
 
 // Texto de presentacion
@@ -32,7 +32,7 @@ $presentacion = "La pregunta que nos hacemos en el proyecto Participa es, <b>¿q
 
 
 // Titulo de la seccion de Resultados Esperados
-$t_resultados = "Resultados Esperados";
+// $t_resultados = "Resultados Esperados";
 
 
 // Resultados esperados
@@ -51,7 +51,7 @@ $resultados = array(
 
 
 // Titulo de la seccion de Experiencias Previas Relacionadas
-$t_experiencias_previas = "Casos de Estudio";
+// $t_experiencias_previas = "Casos de Estudio";
 
 
 // Experiencias previas
@@ -68,7 +68,7 @@ $exp_prev_1 = array(
 
 
 // Titulo de la Seccion de soluciones tecnologicas
-$t_soluciones = "Soluciones";
+// $t_soluciones = "Soluciones";
 
 // Soluciones Tecnologicas
 $sol_tec_1 = array(
@@ -84,7 +84,7 @@ $sol_tec_1 = array(
 
 
 // Titulo de la seccion de Equipo de Trabajo
-$t_equipo = "Equipo de Trabajo";
+// $t_equipo = "Equipo de Trabajo";
 
 // Miembros del equipo de trabajo
 

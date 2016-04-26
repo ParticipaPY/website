@@ -126,7 +126,7 @@ if ($_GET["lang"] == "en"){
 						<section class="wrapper style1 container special" id="resultados">
 							<header class="special container">
 						<span class="icon fa-bar-chart-o"></span>
-						<h2><?php echo $t_resultados; ?></h2>
+						<h2><?php echo $menu["resultados"]; ?></h2>
 					</header>
 							<div class="row">
 								<div class="4u 12u(narrower)">
@@ -209,12 +209,21 @@ if ($_GET["lang"] == "en"){
 						<section class="wrapper style3 container special" id="experiencias">
 
 							<header class="major">
-								<h2><?php echo $t_experiencias_previas; ?></h2>
+								<h2><?php echo $menu["experiencias"]; ?></h2>
 							</header>
-
-							<div class="row">
+							<table>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<a href="http://vozyvoto.org/" class="image"><img src="images/vozyvoto.jpg" alt="" height=auto width=90% style="display:block;"/></a>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="http://vozyvoto.org/" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_1["nombre"]; ?></a> : <?php echo $exp_prev_1["descripcion"]; ?>
+						            </td>
+						        </tr>
+    						</table>
+							<!-- <div class="row">
 								<div class="12u 12u(narrower)">
-
+								
 									<section>
 										<a href="http://vozyvoto.org/" class="image featured"><img src="images/vozyvoto.jpg" alt="" /></a>
 										<header>
@@ -224,27 +233,8 @@ if ($_GET["lang"] == "en"){
 											<?php echo $exp_prev_1["descripcion"]; ?>
 										</p>
 									</section>
-
 								</div>
-								<!-- <div class="6u 12u(narrower)">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>An Airport Terminal</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div> -->
-							</div>
-							
-
-						<!-- 	<footer class="major">
-								<ul class="buttons">
-									<li><a href="#" class="button">See More</a></li>
-								</ul>
-							</footer> -->
+							</div> -->
 
 						</section>
 
@@ -252,10 +242,19 @@ if ($_GET["lang"] == "en"){
 						<section class="wrapper style3 container special" id="soluciones">
 
 							<header class="major">
-								<h2><?php echo $t_soluciones; ?></h2>
+								<h2><?php echo $menu["soluciones"]; ?></h2>
 							</header>
-
-							<div class="row">
+							<table>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<a href="http://www.social-ideation.com/" class="image"><img src="images/social_ideation_icon.png" alt="" height=auto width=70% style="display:block;"/></a>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="http://www.social-ideation.com/" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_1["nombre"]; ?></a> : <?php echo $sol_tec_1["descripcion"]; ?>
+						            </td>
+						        </tr>
+    						</table>
+							<!-- <div class="row">
 								<div class="12u 12u(narrower)">
 
 									<section>
@@ -269,18 +268,7 @@ if ($_GET["lang"] == "en"){
 									</section>
 
 								</div>
-								<!-- <div class="6u 12u(narrower)">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>An Airport Terminal</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div> -->
-							</div>
+							</div> -->
 							
 
 						<!-- 	<footer class="major">
@@ -296,7 +284,7 @@ if ($_GET["lang"] == "en"){
 <!-- EQUIPO -->
 				<section id="cta">
 					<header class="major" id="equipo">
-								<h2><?php echo $t_equipo; ?></h2>
+								<h2><?php echo $menu["equipo"]; ?></h2>
 							</header>
 
 							<div class="row">
