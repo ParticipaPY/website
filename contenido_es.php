@@ -106,7 +106,7 @@ $miembro_2 = array(
 $miembro_4 = array(
 		"nombre" => "Dr. Cristhian Parra<br>(UC, Berkeley, EEUU)<br>Investigador Asociado
 ",
-		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Universita de Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de Berkeley, y en el Inria (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
+		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Universita de Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de California, Berkeley, y en el INRIA (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
 	);
 
 $miembro_5 = array(
