@@ -6,7 +6,7 @@ $nombre = "Participa";
 
 // Breve descripcion del proyecto
 //              Impulsando la creación de espacio alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales"
-$descripcion = "Engaging the citizens through technology";
+$descripcion = "Building spaces of civic participation through technology";
 
 
 //Texto a ser mostrado en el menu de navegacion
