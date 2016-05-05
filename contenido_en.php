@@ -6,14 +6,14 @@ $nombre = "Participa";
 
 // Breve descripcion del proyecto
 //              Impulsando la creación de espacio alternativos de participación cívica enfocados en la búsqueda de soluciones a problemáticas sociales"
-$descripcion = "Building spaces for civic participation through technology";
+$descripcion = "Engaging the citizens through technology";
 
 
 //Texto a ser mostrado en el menu de navegacion
 $menu = array(
 		"presentacion" => "Presentation",
 		"resultados" => "Expected Results",
-		"experiencias" => "Use Cases",
+		"experiencias" => "Case Studies",
 		"soluciones" => "Solutions",
 		"equipo" => "Team",
 		"contactos" => "Contact Us"
@@ -25,11 +25,11 @@ $menu = array(
 
 
 // Texto de presentacion
-$presentacion = "The question we ask ourselves in this project is: <b>Which technology tools and processes can be used to generate altenative, convenient, affordable, and accesible civic participation spaces in Paraguay?</b> Spaces that fit to Paraguay's social-economic-cultural context and allow citizens gathering for discussing solutions, proposals or just ideas concerning common interest issues. (e.g., public transportation, sanitary system).<br><br>
+$presentacion = "The question we ask ourselves here is: <b>how technology can be used to build sustainable, affordable, and accesible spaces of civic participation?</b> Spaces that, tailored to Paraguay's socio-economic and cultural context, allow citizens to gather together to discuss solutions, proposals and ideas to address public interest issues (e.g., public transportation, sanitary system).<br><br>
 
-	Participa is a 2-year-long research project funded by the CONACYT (The National Council for Science and Technology from Paraguay) and driven by a multidisciplinary team of Informatics and Sociology proffesors, researchers and technicians from Universidad Católica de Asunción (UCA), Paraguay and Universidad de Trento (UniTN), Italia.<br><br>
+	Participa is a 2-year-long research project funded by the CONACYT (National Council of Science and Technology of Paraguay) and conducted by a multidisciplinary team of Informatics and Sociology proffesors, researchers and technicians from the Catholic University of Asuncion, Paraguay (UCA) and the University of Trento, Italia (UniTN).<br><br>
 
-	To do so, first we pretend to explore similar intiatives already proposed in other countries. Later, we will try to understand, through a pilot study, the motivation, the different ways and the scope of civic participation using technology platforms in Paraguay. Finally, we will focus on modeling, designing, developing and implementing technologycal applications and systems, as well as processes, that allow paraguayan citizens to take an active role on the ideation of solutions for common interest issues.";
+	In Participa, first we plan to explore similar intiatives that have been already proposed in other countries. Later, we are going to research, through pilot studies, the motives, characteristics, and forms of the ICT-mediated civic participation in Paraguay. Finally, our work are going to be focused on modeling, designing, developing and implementing of technology solutions and processes that enable paraguayan citizens to participate in the ideation of solutions for common interest issues.";
 
 
 // Titulo de la seccion de Resultados Esperados
@@ -39,15 +39,15 @@ $presentacion = "The question we ask ourselves in this project is: <b>Which tech
 // Resultados esperados
 $resultados = array(
 
-	"To identify social-impact problem scenarios on which citizes are interested on collaborating with the government to find solutions",
+	"To extend the literature with new knowledge about the problem of civic participation through technology on Latin-America sociocultural contexts. In particular, we expect to extend the understaing about excecuting processes to engage the public in the ideation of solutions for social problems",
+    
+    "To build technological solutions that, tailored to Paraguay's socio-cultural and economical context, can serve as an effective means through which the citizenry can work together on ideating solutions for social problems and innovations for public goods and services",
+    
+    "To identify social issues on which the society at large would be interested in gathering together to find solutions",
 
-	"To extend the existing literature with new knowledge about the problem of Civic participation using technology on latin-american sociocultural contexts. In particular we hope to increase the understaing about excecuting collaborative processes of the public sector innovation",
+	"To implement processes that enable the civil society to be involved in initiatives of public sector innovation",
 
-	"To make accesible and convenient technology solutions that are adapted to national context and can be used as alterative means of civic participacion, through which the gorvernment and citizens could work together on the innovation of public goods and services.",
-
-	"To implement civic participation processes that allow civic society involvement on the public sector innovation",
-
-	"Validate the solution as a low-cost and permanent platform that complements civic participation on the public sector innovation",
+	"Validate the solution as an efficient, sustainable, and affordable platform of civic engagement",
 	);
 
 
@@ -58,7 +58,7 @@ $resultados = array(
 // Experiencias previas
 $exp_prev_1 = array(
 		"nombre" => "Voz y Voto",
-		"descripcion" => "Members of Participa Project took part in the implementation of Voz y Voto intiative, which was driven on late 2015 by the current Asunción city councilor Sebastián Villarejo. The project pretended to involve Asunción citizens on the discussion of ideas such as Sustainable Urban Mobility, Garbage and Recycling, City management, among others. After almost 3 months of discussion and interaction through a virtual space created with IdeaScale platform and a Facebook group, some ideas are being studied for their possible implementation."
+		"descripcion" => "Members of Participa's tema took part in the implementation of Voz y Voto. Voz y voto was civic a engagement initiative organized by Sebastián Villarejo (current municipal councilman of Asuncion, the capital of Paraguay) and his electoral campaign team on late 2015. The project aimed at involving Asuncion's citizens on the discussion of ideas for addressing problems related to sustainable urban mobility, garbage and recycling, city management, and others. Voz y voto leverage on a specially-designed idea management platform, IdeaScale, and Facebook to build a virtual space through which citizens can share ideas, vote and give opinions on how these problems can be solved. After about 3 months of discussion, a set of promising ideas were selected for study."
 	);
 
 // // Plantilla
@@ -75,7 +75,7 @@ $exp_prev_1 = array(
 $sol_tec_1 = array(
 		"nombre" => "Social Ideation App",
 		"descripcion" => "
-		Social Ideation app is a Software application that connects IdeaScale - One of the top Idea Management platforms on the market -  with Facebook - the world's biggest virtual participation space - allowing people to take part of the Colective Ideation Process on IdeaScale directly from Facebook."
+		Social Ideation is an application that connects IdeaScale &mdash; one of today's leading online idea management platforms &mdash; with the world's largest virtual space of participation and socialization, Facebook, allowing people to participate on IdeaScale-based public consultations initiatives from Facebook."
 	);
 
 // // Plantilla
@@ -91,41 +91,41 @@ $sol_tec_1 = array(
 // Miembros del equipo de trabajo
 
 $miembro_3 = array(
-		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
+		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Research Assistant",
 		"descripcion" => "
-			Candidate for a Ph.D degree on Information and Communications Technology on the Trento University and the Catholic University of Asunción. He works on Social Informatics, more precisely on topics such as civic technology, democratic innovation, crowdsourcing, idea management and social networks. Member of the Life Participation Research Group of the Trento University (Trento, Italy), his previous experiences  include collaboration works with Hewlett-Packard's Information Analytics Research Group (Palo Alto, USA), with the Data and Democracy Research Group of California University (Berkeley, USA), and with researchers from the Brown Institute for Media Innovation of the Stanford University (Palo Alto, USA). Contact: jorgesaldivar@gmail.com"
+			Informatic Engineer and Ph.D. candidate in Information and Communication Technologies at the University of Trento and the Catholic University of Asuncion. He works on Social Informatics, more precisely on topics such as Civic Technology, Democratic Innovation, Crowdsourcing, Idea Management and Social Network Services. His previous experiences include collaboration works with the Hewlett-Packard's Information Analytics Research Group (Palo Alto, USA), with the Data and Democracy Research Group of the University of California (Berkeley, USA), and with researchers from the Brown Institute for Media Innovation of the Stanford University (Palo Alto, USA)"
 	);
 
 $miembro_1 = array(
-		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Investigador Principal y Director de proyecto.",
-		"descripcion" => "Ph.D. on Engineering from the Universitá di Modena e Reggio Emilia, Italy, with a previous degree on Computer Science from Universitá degli Studi di Milano, Italy. His area of operation include Software Engineering, Agents, Support Technology for people with special needs, Educational Informatics, Web Technology and Hypermedia. He has published his works on magazines, books, and international and local events. He has directed an important number of finished degree monographs orieted to young teachers. Nowadays he is co-supervisor of Ph.D. degree works. He performs as the dean of the Facultad de Ciencias y Tecnologías at the Universidad Católica de Asunción."
+		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Principal Researcher and Project Director",
+		"descripcion" => "Ph.D. on Engineering from the Universitá di Modena e Reggio Emilia, Italy, with a previous degree on Computer Science from Universitá degli Studi di Milano, Italy. His areas of operation include Software Engineering, Agents, Support Technology for people with special needs, Educational Informatics, Web Technology and Hypermedia. His works have been published on magazines, books, and international and local events. He has directed an important number of finished degree monographs orieted to young teachers. Nowadays he is co-supervisor of Ph.D. degree theses. He performs as the dean of the Science and Technology School at the Catholic University of Asuncion"
 	);
 
 $miembro_2 = array(
-		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
+		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Associate Researcher",
 		"descripcion" => "Associate Professor at the Università degli Studi di Trento. Member of the Dipartimento di Ingegneria e Scienza dell'Informazione. Teaching at the Dipartimento di Sociologia e Ricerca Sociale and at the Dipartimento di Ingegneria e Scienza dell'Informazione. Vice-Coordinator of the ICT International Doctoral School. Scientific Director of the Doctoral Training Center on ICT for Quality of Life (part of the EIT ICT Labs Doctoral School)"
 	);
 
 
 $miembro_4 = array(
-		"nombre" => "Dr. Cristhian Parra<br>(U. California, Berkeley, Estados Unidos)<br>Investigador Asociado
+		"nombre" => "Dr. Cristhian Parra<br>(U. of California, Berkeley, USA)<br>Research Assistant
 ",
-		"descripcion" => "Informatics Engineer with a Ph.D. in Information and Communication Technologies from Università degli Studi di Trento. He works as a Postdoctoral Researcher and Software Engineer at the Social Apps Lab of CITRIS, UC Berkeley; and INRIA (Institut National de Recherche en Informatique et en Automatique) of Paris, France. His work is focused in the multidisciplinary realm of Social-Community Informatics and Human Computer Interactions, using Participatory Design and Participatory Action Research as principal approaches to conduct his research."
+		"descripcion" => "Informatics Engineer with a Ph.D. in Information and Communication Technologies from Università degli Studi di Trento. He works as a Postdoctoral Researcher and Software Engineer at the Social Apps Lab of CITRIS, UC Berkeley; and INRIA (Institut National de Recherche en Informatique et en Automatique) of Paris, France. His work is focused in the multidisciplinary realm of Social-Community Informatics and Human Computer Interactions, using Participatory Design and Participatory Action Research as principal approaches to conduct his research"
 	);
 
 $miembro_5 = array(
-		"nombre" => "Msc. Camilo Caballero<br>(U. de Salamanca, España)<br>Investigador Asociado",
-		"descripcion" => "Candidate for a Ph.D. degree in Logic and Philosophy of Science. His operation areas include Social Studies of Sciece and Technology; Information and Communication Technologies with Local Developement; State Management. He works a coordinator assitant in Enfoque Territorial Project and Servicio de Apoyo Indígena. He has been coordination and communication assitant at CADEP, and work as a consultant for Semillas Para la Democracia program."
+		"nombre" => "Msc. Camilo Caballero<br>(U. of Salamanca, Spain)<br>Research Assistant",
+		"descripcion" => "Msc. on Sociology and Ph.D. candidate in Logic and Philosophy of Science at the University of Salamanca, Spain. His operation areas include Social Studies of Sciece and Technology, Information and Communication Technologies for Local Developement, State Management. He works as a coordinator assitant at the NGO Enfoque Territorial and at the Servicio de Apoyo Indígena. He has perfomed as coordinator and communication assitant at CADEP, and worked as consultant for the NGO Semillas Para la Democracia"
 	);
 
 $miembro_6 = array(
-		"nombre" => "Lic. Marcelo Alcaraz<br>(UCA, Paraguay)<br>Investigador Junior",
-		"descripcion" => "He has a Bachelor's degree in Informatics from Universidad Católica Nuestra Señora de la Asunción. He joined Particpa's team starting his final project for getting the Informatics Engineering degree."
+		"nombre" => "Marcelo Alcaraz<br>(UCA, Paraguay)<br>Junior Researcher",
+		"descripcion" => "He holds a bachelor degree in Informatics from the Catholic University of Asuncion. He has joined Participa's team as a junior researcher to work on his final project for the Informatics Engineering degree."
 	);
 
 $miembro_7 = array(
-		"nombre" => "Lic. Rebeca Arteta<br>(UCA, Paraguay)<br>Investigador Junior",
-		"descripcion" => "Candidate for a Informatics Engineering degree from Universidad Católica Nuestra Señora de la Asunción. She joined the projet as a Junior researcher starting her degree final project. She works as a back-end deveolper at a paraguayan software developer company."
+		"nombre" => "Rebeca Arteta<br>(UCA, Paraguay)<br>Junior Researcher",
+		"descripcion" => "She holds a bachelor degree in Informatics from the Catholic University of Asuncion. She has joined the projet as a junior researcher to work on her final project for the Informatics Engineering degree. She works as a back-end deveolper in a paraguayan software company."
 	);
 
 // // Plantilla

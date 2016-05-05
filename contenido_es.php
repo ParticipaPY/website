@@ -24,11 +24,11 @@ $menu = array(
 
 
 // Texto de presentacion
-$presentacion = "La pregunta que nos hacemos en el proyecto Participa es, <b>¿qué herramientas tecnológicas y procesos pueden ser utilizados para generar en Paraguay espacios alternativos, convenientes, económicos, y accesibles de participación cívica?</b> Espacios que adaptados al contexto social, económico, y cultural del Paraguay permitan a la ciudadanía congregarse a discutir soluciones, propuestas  o simplemente ideas sobre problemáticas de interés público (p.ej., el transporte público, el sistema sanitario).<br><br>
+$presentacion = "La pregunta que nos hacemos en el proyecto Participa es, <b>¿cómo las tecnologías de información y comunicación pueden ser utilizadas para construir espacios de participación cívica sustentables, económicos, y accesibles?</b> Espacios que adaptados al contexto social, económico, y cultural del Paraguay permitan a la ciudadanía congregarse a discutir soluciones, propuestas e ideas sobre problemáticas de interés público (p.ej., el transporte público, el sistema sanitario).<br><br>
 
 	Participa es una proyecto de investigación de 2 años financiado por el Consejo Nacional de Ciencia y Tecnología (CONACYT) de Paraguay llevado adelante por un equipo multidisciplinario de profesores, investigadores y técnicos del área de Informática y Sociología de la Universidad Católica de Asunción (UCA), Paraguay y de la Universidad de Trento (UniTN), Italia.<br><br>
 
-	Para ello pretendemos, en un primer momento, explorar iniciativas similares ya planteadas en otros países. Más tarde buscaremos entender a través de experiencias prácticas (estudios pilotos) las motivaciones, formas y alcances de la participación ciudadana a través de plataformas tecnológicas en Paraguay. Finalmente, nos enfocaremos en modelar, diseñar, desarrollar e implementar sistemas y aplicaciones tecnológicas, así como también procesos, que permitan al ciudadano paraguayo tomar parte activa en la ideación de innovaciones y soluciones a problemáticas de interés general.";
+	En un primer momento, exploraremos iniciativas similares ya planteadas en otros países. Más tarde buscaremos entender a través de experiencias prácticas (estudios pilotos) las motivaciones, formas y alcances de la participación ciudadana a través de plataformas tecnológicas en Paraguay. Finalmente, nos enfocaremos en modelar, diseñar, desarrollar e implementar sistemas y aplicaciones tecnológicas, así como también procesos, que permitan al ciudadano paraguayo tomar parte activa en la ideación de innovaciones y soluciones a problemáticas de interés general.";
 
 
 // Titulo de la seccion de Resultados Esperados
@@ -38,15 +38,15 @@ $presentacion = "La pregunta que nos hacemos en el proyecto Participa es, <b>¿q
 // Resultados esperados
 $resultados = array(
 
-	"Identificar escenarios de problemáticas de impacto social en los que la ciudadanía se encuentra preferentemente interesada en colaborar con el gobierno para encontrar una solución.",
+    "Extender de la literatura con nuevos conocimientos respecto a la problemática de participación ciudadana, mediada por la tecnología, en realidades socio-culturales latinoamericanas, en particular se espera ampliar el entendimiento respecto a la ejecución de procesos colaborativos de innovación en el sector público en Paraguay",
+    
+    "Crear soluciones tecnológicas accesibles, convenientes y adaptadas al contexto nacional que sirvan como medios de participación a través de las cuales la ciudadanía puedan colaborar en la creación de soluciones e innovaciones para los bienes y servicios públicos",
+    
+	"Identificar escenarios de problemáticas de impacto social en los que la ciudadanía se encuentra preferentemente interesada en colaborar para encontrar una solución",
 
-	"Extender de la literatura con nuevos conocimientos respecto a la problemática de participación ciudadana, mediada por la tecnología, en realidades socio-culturales latinoamericanas, en particular se espera ampliar el entendimiento respecto a la ejecución de procesos colaborativos de innovación en el sector público en Paraguay.",
+	"Implementar procesos de participación cívica que permitan involucrar a la sociedad civil en la innovación del sector público y en la búsqueda de soluciones a problemáticas sociales",
 
-	"Crear soluciones tecnológicas accesibles, convenientes y adaptadas al contexto nacional que sirvan como medios alternativos de participación ciudadana a través de las cuales el gobierno y la ciudadanía puedan colaborar en la creación de innovaciones para los bienes y servicios públicos.",
-
-	"Implementar procesos de participación cívica que permitirán involucrar a la sociedad civil en la innovación del sector público.",
-
-	"Validar la solución como plataforma permanente, poco costosa y complementaria de participación ciudadana en la innovación del sector público."
+	"Validar la solución como plataforma efectiva, permanente, y poco costosa de participación ciudadana"
 	);
 
 
@@ -90,17 +90,17 @@ $sol_tec_1 = array(
 
 $miembro_3 = array(
 		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
-		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Su trabajo se centran en el área de Social Computing aplicada a los dominios de civic participation, democratic innovation, crowdsourcing, open innovation, idea management, y redes sociales. Desde el 2011 es parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia)."
+		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Su trabajo se centran las áreas de Social Informatics aplicada a los dominios de participación cívica, innovación democrática, crowdsourcing, idea management, y redes sociales. Desde el 2011 es parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia)"
 	);
 
 $miembro_1 = array(
 		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Investigador Principal y Director de proyecto.",
-		"descripcion" => "Doctor en Ingeniería por la Universidad de Moderna y Reggio Emilia (Italia). Su trabajo se centra en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Actualmente se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción (Paraguay) y es co-tutor de trabajo de tesis de estudiantes de doctorado."
+		"descripcion" => "Doctor en Ingeniería por la Universidad de Moderna y Reggio Emilia (Italia). Su trabajo se centra en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Actualmente se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción (Paraguay) y es co-tutor de trabajo de tesis de estudiantes de doctorado"
 	);
 
 $miembro_2 = array(
 		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
-		"descripcion" => "Profesor Asociado en la  Universidad de Trento. Miembro del Departamento de Ingenieria y Ciencia de la Información. Se desempeña como profesor en el Departamento de Sociología e Investigación Social y en el Departamento de Ingeniera y Ciencia de la Computación. Vicecoordinador del ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte de EIT ICT Labs Doctoral School )."
+		"descripcion" => "Profesor Asociado en la  Universidad de Trento. Miembro del Departamento de Ingenieria y Ciencia de la Información. Se desempeña como profesor en el Departamento de Sociología e Investigación Social y en el Departamento de Ingeniera y Ciencia de la Computación. Vicecoordinador del ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte de EIT ICT Labs Doctoral School)"
 	);
 
 $miembro_4 = array(
@@ -116,12 +116,12 @@ $miembro_5 = array(
 
 $miembro_6 = array(
 		"nombre" => "Lic. Marcelo Alcaraz<br>(UCA, Paraguay)<br>Investigador Junior",
-		"descripcion" => "Ha culminado la Licenciatura en Informática en la Universidad Católica de Asunción. Se integra al proyecto como investigador junior inciando con este su proyecto de fin de carrera para obtener el título de grado en Ingeniería."
+		"descripcion" => "Ha culminado la Licenciatura en Informática en la Universidad Católica de Asunción. Se integra al proyecto como investigador junior iniciando con este su proyecto de fin de carrera para obtener el título de grado en Ingeniería."
 	);
 
 $miembro_7 = array(
 		"nombre" => "Lic. Rebeca Arteta<br>(UCA, Paraguay)<br>Investigadora Junior",
-		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica de Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de desarrollo de software."
+		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica de Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de software."
 	);
 
 // // Plantilla
