@@ -134,7 +134,7 @@ if ($_GET["lang"] == "en"){
 						         		<span class="icon featured fa-book"></span>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[0];?></p>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 11pt; text-align : justify;"><?php echo $resultados[0];?></p>
 						            </td>
 						        </tr>
 						        <tr>
@@ -142,7 +142,7 @@ if ($_GET["lang"] == "en"){
 						         		<span class="icon featured fa-laptop"></span>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[1];?></p>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 11pt; text-align : justify;"><?php echo $resultados[1];?></p>
 						            </td>
 						        </tr>
 						        <tr>
@@ -150,7 +150,7 @@ if ($_GET["lang"] == "en"){
 						         		<span class="icon featured fa-exclamation-triangle"></span>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[2];?></p>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 11pt; text-align : justify;"><?php echo $resultados[2];?></p>
 						            </td>
 						        </tr>
 						        <tr>
@@ -158,7 +158,7 @@ if ($_GET["lang"] == "en"){
 						         		<span class="icon featured fa-users"></span>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[3];?></p>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 11pt; text-align : justify;"><?php echo $resultados[3];?></p>
 						            </td>
 						        </tr>
 						        <tr>
@@ -166,7 +166,7 @@ if ($_GET["lang"] == "en"){
 						         		<span class="icon featured fa-thumbs-o-up"></span>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[4];?></p>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 11pt; text-align : justify;"><?php echo $resultados[4];?></p>
 						            </td>
 						        </tr>
     						</table>
