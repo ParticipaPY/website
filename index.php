@@ -125,84 +125,53 @@ if ($_GET["lang"] == "en"){
 <!-- RESULTADOS ESPERADOS -->
 						<section class="wrapper style1 container special" id="resultados">
 							<header class="special container">
-						<span class="icon fa-bar-chart-o"></span>
-						<h2><?php echo $menu["resultados"]; ?></h2>
-					</header>
-							<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-exclamation-triangle"></span>
-										<!-- <header>
-											<h3>This is Something</h3>
-										</header> -->
-										<!-- <ul class="featured-icons">
-											<li><img src="images/micro.jpg"></li>
-										</ul> -->
-										<p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[0];?></p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-book"></span>
-										<!-- <header>
-											<h3>Also Something</h3>
-										</header> -->
-										<!-- <ul class="featured-icons">
-											<li><img src="images/micro.jpg"></li>
-										</ul> -->
-										<p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[1];?></p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-laptop"></span>
-										<!-- <header>
-											<h3>Probably Something</h3>
-										</header> -->
-										<!-- <ul class="featured-icons">
-											<li><img src="images/micro.jpg"></li>
-										</ul> -->
-										<p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[2];?></p>
-									</section>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-users"></span>
-										<!-- <header>
-											<h3>This is Something</h3>
-										</header> -->
-										<!-- <ul class="featured-icons">
-											<li><img src="images/micro.jpg"></li>
-										</ul> -->
-										<p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[3];?></p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-thumbs-o-up"></span>
-										<!-- <header>
-											<h3>Also Something</h3>
-										</header> -->
-										<!-- <ul class="featured-icons">
-											<li><img src="images/micro.jpg"></li>
-										</ul> -->
-										<p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[4];?></p>
-									</section>
-
-								</div>
+								<span class="icon fa-bar-chart-o"></span>
+								<h2><?php echo $menu["resultados"]; ?></h2>
+							</header>
+							<table>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<span class="icon featured fa-book"></span>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[0];?></p>
+						            </td>
+						        </tr>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<span class="icon featured fa-laptop"></span>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[1];?></p>
+						            </td>
+						        </tr>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<span class="icon featured fa-exclamation-triangle"></span>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[2];?></p>
+						            </td>
+						        </tr>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<span class="icon featured fa-users"></span>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[3];?></p>
+						            </td>
+						        </tr>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<span class="icon featured fa-thumbs-o-up"></span>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <p style="font-size: 10pt; text-align : justify;"><?php echo $resultados[4];?></p>
+						            </td>
+						        </tr>
+    						</table>
 							
-							</div>
+							
 						</section>
 
 <!-- EXPERIENCIAS PREVIAS -->
