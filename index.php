@@ -425,8 +425,52 @@ if ($_GET["lang"] == "en"){
 
 				</section>
 
+
+			  <div style="max-width: 100%; background-color: #ffffff;">
+			      <article class="container" id="organizan" style="max-width: auto; background-color: #ffffff">
+			             <div class="row" style="padding: 2em 0 2em 0; margin: 0 0 0 0; border: 0 0 0 0">
+			                 <div class="2u 12u(narrower)" style="padding-top: 0;">
+			                     <span>
+			                          <a href="http://www.conacyt.gov.py" target="_blank">
+			                            <img src="images/conacyt.jpg" alt="" class="logo"style="padding-bottom: 40">
+			                          </a>
+			                     </span>
+			                 </div>
+
+			                 <div class="3u 12u(narrower)" style="padding-top: 0;">
+			                     <span>
+			                          <a href="http://www.universidadcatolica.edu.py/" target="_blank">
+			                            <img src="images/u_uca.jpg" alt="" class="logo">
+			                          </a>
+			                     </span>
+			                 </div>
+
+			                 <div class="3u 12u(narrower)" style="padding-top: 0;">
+			                     <span>
+			                          <a href="http://www.dei.uc.edu.py/" target="_blank">
+			                            <img src="images/dei_logo.jpeg" alt="" class="logo" />
+			                          </a>
+			                     </span>
+			                 </div>
+			                 <div class="3u 12u(narrower)" style="padding-top: 0;">
+			                     <span>
+			                          <a href="http://www.unitn.it/en" target="_blank">
+			                            <img src="images/unitn.jpg" alt="" class="logo"/>
+			                          </a>
+			                     </span>
+			                 </div>
+			             </div>
+			      </article>
+			  </div>
+
+
+
 			<!-- Footer -->
 				<footer id="footer">
+
+
+
+
 				<header class="special container" id="contactos">
 						<span class="icon fa-commenting"></span>
 						<h2><?php echo $menu["contactos"]; ?></h2>

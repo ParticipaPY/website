@@ -3621,3 +3621,17 @@
 .flag.flag-za {background-position: -325px -210px}
 .flag.flag-zm {background-position: -350px -210px}
 .flag.flag-zw {background-position: -375px -210px}
+
+/* LOGOS */
+.logo{
+        display: inline-block;
+        height: 100px;
+        filter: gray;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(100%);
+}
+
+.logo:hover{
+        filter: none;
+        -webkit-filter: grayscale(0%);
+}
