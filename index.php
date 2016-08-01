@@ -257,14 +257,15 @@ if ($_GET["lang"] == "en"){
 							</header>
 
 							<div class="row">
-								<div class="4u 12u(narrower)">
-									<section>
+								<div class="3u 12u(narrower)">
+									<section >
 										<!-- <a href="#" class="image featured"><img src="images/luca.jpg" alt="" /></a> -->
 										<ul class="featured-icons">
 											<li><img src="images/luca.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_1["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_1["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_1["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_1["descripcion"]; ?>
@@ -278,14 +279,15 @@ if ($_GET["lang"] == "en"){
 										<!-- </footer> -->
 									</section>
 								</div>
-								<div class="4u 12u(narrower)">
+								<div class="3u 12u(narrower)">
 									<section>
 										<!-- <a href="#" class="image featured"><img src="images/jorge.jpg" alt="" /></a> -->
 										<ul class="featured-icons">
 											<li><img src="images/vicenzo.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_2["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_2["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_2["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_2["descripcion"]; ?>
@@ -300,14 +302,15 @@ if ($_GET["lang"] == "en"){
 										<!-- </footer> -->
 									</section>
 								</div>
-								<div class="4u 12u(narrower)">
+								<div class="3u 12u(narrower)">
 									<section>
 										<!-- <a href="#" class="image featured"><img src="images/vicenzo.jpg" alt="" /></a> -->
 										<ul class="featured-icons">
 											<li><img src="images/jorge.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_3["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_3["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_3["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_3["descripcion"]; ?>
@@ -321,17 +324,16 @@ if ($_GET["lang"] == "en"){
 
 									</section>
 								</div>
-								
-							</div>
-							<div class="row">
-								<div class="4u 12u(narrower)">								
+
+								<div class="3u 12u(narrower)">								
 									<section>
 										<!-- <a href="#" class="image featured"><img src="images/cristian.jpg" alt="" /></a> -->
 										<ul class="featured-icons">
 											<li><img src="images/cristian.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_4["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_4["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_4["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_4["descripcion"]; ?>
@@ -343,7 +345,10 @@ if ($_GET["lang"] == "en"){
 												<li><a href="http://cdparra.info/" class="icon fa-globe"></a></li>
 										</ul>
 									</section>
-								</div>								
+								</div>
+							</div>
+							<div class="row">
+																
 							
 								<div class="4u 12u(narrower)">
 									<section>
@@ -352,7 +357,8 @@ if ($_GET["lang"] == "en"){
 											<li><img src="images/camilo.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_5["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_5["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_5["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_5["descripcion"]; ?>
@@ -371,7 +377,8 @@ if ($_GET["lang"] == "en"){
 											<li><img src="images/marcelo.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_6["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_6["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_6["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_6["descripcion"]; ?>
@@ -383,8 +390,6 @@ if ($_GET["lang"] == "en"){
 											</ul>
 									</section>
 								</div>
-							</div>
-							<div class="row">
 								<div class="4u 12u(narrower)">
 									<section>
 										<!-- <a href="#" class="image featured"><img src="images/rebeca.jpg" alt="" /></a> -->
@@ -392,7 +397,8 @@ if ($_GET["lang"] == "en"){
 											<li><img src="images/rebeca.jpg"></li>
 										</ul>
 										<!-- <header> -->
-											<h4><?php echo $miembro_7["nombre"]; ?></h4>
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_7["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_7["cargo"]; ?></p>
 										<!-- </header> -->
 										<!--<p style="font-size: 10pt; text-align : justify;">
 											<?php echo $miembro_7["descripcion"]; ?>
@@ -405,6 +411,7 @@ if ($_GET["lang"] == "en"){
 									</section>
 								</div>
 							</div>
+						
 				<!-- 	<header>
 						<h2>Ready to do <strong>something</strong>?</h2>
 						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
@@ -426,9 +433,9 @@ if ($_GET["lang"] == "en"){
 				</section>
 
 
-			  <div style="max-width: 100%; background-color: #ffffff;">
-			      <!-- <article class="container" id="organizan" style="max-width: auto; background-color: #ffffff; padding: 0 0 0 0;"> -->
-			             <!-- <div class="row" style="padding: 2em 0 2em 0; margin: 0 0 0 0; border: 0 0 0 0">
+			  <div style="max-width: 100%; background-color: #ffffff; padding: 7em 1em 7em 0;">
+			      <!-- <article class="container" id="organizan" style="max-width: auto; background-color: #ffffff; padding: 0 0 0 0;">
+			             <div class="row" style="padding: 2em 0 2em 0; margin: 0 0 0 0; border: 0 0 0 0">
 			                 <div class="1u 12u(normal)" style="padding-top: 0;">
 			                     <span>
 			                          <a href="http://www.conacyt.gov.py" target="_blank">
@@ -465,10 +472,12 @@ if ($_GET["lang"] == "en"){
 			                          </a>
 			                     </span>
 			                 </div>
-			             </div> -->
+			             </div>
 
+                    </article> -->
 
-			              <div style="padding: 2em 0 2em 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+			              <!-- <div style="padding: 1em 0 7em 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+			                     
 			                     <span >
 			                          <a href="http://www.conacyt.gov.py" target="_blank">
 			                            <img src="images/conacyt.jpg" alt="" class="logo"style="padding-bottom: 40">
@@ -478,7 +487,9 @@ if ($_GET["lang"] == "en"){
 			                          <a href="http://www.conacyt.gov.py/programa-prociencia" target="_blank">
 			                            <img src="images/prociencia-logo.jpg" alt="" class="logo">
 			                          </a>
-
+                                 </span>
+                                 <h3>probandooo</h3>
+                                 <span>
 			                          <a href="http://www.universidadcatolica.edu.py/" target="_blank">
 			                            <img src="images/u_uca.jpg" alt="" class="logo">
 			                          </a>
@@ -491,8 +502,46 @@ if ($_GET["lang"] == "en"){
 			                            <img src="images/unitn.jpg" alt="" class="logo"/>
 			                          </a>
 			                     </span>
+			             </div> -->
+
+			             <div class="row" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               <div class="4u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               	    <div class="row" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               	    	  <div class="12u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"> <h3><?php echo $menu["financiado por"]; ?></h3> </div>
+
+                               	    </div>
+                               	    <div class="row" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               	    	  <div class="4u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"><a href="http://www.conacyt.gov.py" target="_blank">
+					                            <img src="images/conacyt.jpg" alt="" class="logo"style="padding-bottom: 40">
+					                          </a></div>
+                               	    	  <div class="8u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"> <a href="http://www.conacyt.gov.py/programa-prociencia" target="_blank">
+					                            <img src="images/prociencia-logo.jpg" alt="" class="logo">
+					                          </a></div> 
+                               	    </div>
+
+                               </div>
+
+                               <div class="8u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               	    <div class="row" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               	    	   <div class="12u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"> <h3><?php echo $menu["instituciones"]; ?></h3> </div>
+                               	    </div>
+                               	    <div class="row" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center">
+                               	    	   <div class="4u 12u(narrower)" style="padding: 0 0 0 4em; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"><a href="http://www.universidadcatolica.edu.py/" target="_blank">
+						                            <img src="images/u_uca.jpg" alt="" class="logo">
+						                          </a> </div>
+                               	    	   <div class="4u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"> <a href="http://www.dei.uc.edu.py/" target="_blank">
+						                            <img src="images/dei_logo.jpeg" alt="" class="logo" />
+						                          </a></div>
+                               	    	   <div class="4u 12u(narrower)" style="padding: 0 0 0 0; margin: 0 0 0 0; border: 0 0 0 0; text-align: center"> <a href="http://www.unitn.it/en" target="_blank">
+						                            <img src="images/unitn.jpg" alt="" class="logo"/>
+						                          </a></div>
+                               	    	  
+                               	    </div>
+
+                               </div>
+
 			             </div>
-			      <!-- </article> -->
+			     
 			  </div>
 
 

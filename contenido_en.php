@@ -16,7 +16,9 @@ $menu = array(
 		"experiencias" => "Case Studies",
 		"soluciones" => "Solutions",
 		"equipo" => "Team",
-		"contactos" => "Contact Us"
+		"contactos" => "Contact Us",
+		"financiado por" => "Financially supported by",
+		"instituciones" => "Institutions"
 	);
 
 
@@ -91,40 +93,46 @@ $sol_tec_1 = array(
 // Miembros del equipo de trabajo
 
 $miembro_3 = array(
-		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Research Assistant",
+		"nombre" => "Ing. Jorge Saldivar",
+		"cargo" => "(UniTN/UC)<br>Research Assistant",
 		"descripcion" => "
 			Informatic Engineer and Ph.D. candidate in Information and Communication Technologies at the University of Trento and the Catholic University of Asuncion. He works on Social Informatics, more precisely on topics such as Civic Technology, Democratic Innovation, Crowdsourcing, Idea Management and Social Network Services. His previous experiences include collaboration works with the Hewlett-Packard's Information Analytics Research Group (Palo Alto, USA), with the Data and Democracy Research Group of the University of California (Berkeley, USA), and with researchers from the Brown Institute for Media Innovation of the Stanford University (Palo Alto, USA)"
 	);
 
 $miembro_1 = array(
-		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Principal Researcher and Project Director",
+		"nombre" => "Prof. Dr. Luca Cernuzzi",
+		"cargo" => "(UC, Paraguay)<br>Principal Researcher and Project Director",
 		"descripcion" => "Ph.D. on Engineering from the Universitá di Modena e Reggio Emilia, Italy, with a previous degree on Computer Science from Universitá degli Studi di Milano, Italy. His areas of operation include Software Engineering, Agents, Support Technology for people with special needs, Educational Informatics, Web Technology and Hypermedia. His works have been published on magazines, books, and international and local events. He has directed an important number of finished degree monographs orieted to young teachers. Nowadays he is co-supervisor of Ph.D. degree theses. He performs as the dean of the Science and Technology School at the Catholic University of Asuncion"
 	);
 
 $miembro_2 = array(
-		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Associate Researcher",
+		"nombre" => "Prof. Dr. Vincenzo D’Andrea",
+		"cargo" => "(UniTN, Italia)<br>Associate Researcher",
 		"descripcion" => "Associate Professor at the Università degli Studi di Trento. Member of the Dipartimento di Ingegneria e Scienza dell'Informazione. Teaching at the Dipartimento di Sociologia e Ricerca Sociale and at the Dipartimento di Ingegneria e Scienza dell'Informazione. Vice-Coordinator of the ICT International Doctoral School. Scientific Director of the Doctoral Training Center on ICT for Quality of Life (part of the EIT ICT Labs Doctoral School)"
 	);
 
 
 $miembro_4 = array(
-		"nombre" => "Dr. Cristhian Parra<br>(U. of California, Berkeley, USA)<br>Research Assistant
-",
+		"nombre" => "Dr. Cristhian Parra",
+		"cargo" => "(U. of California, Berkeley, USA)<br>Research Assistant",
 		"descripcion" => "Informatics Engineer with a Ph.D. in Information and Communication Technologies from Università degli Studi di Trento. He works as a Postdoctoral Researcher and Software Engineer at the Social Apps Lab of CITRIS, UC Berkeley; and INRIA (Institut National de Recherche en Informatique et en Automatique) of Paris, France. His work is focused in the multidisciplinary realm of Social-Community Informatics and Human Computer Interactions, using Participatory Design and Participatory Action Research as principal approaches to conduct his research"
 	);
 
 $miembro_5 = array(
-		"nombre" => "Msc. Camilo Caballero<br>(U. of Salamanca, Spain)<br>Research Assistant",
+		"nombre" => "Msc. Camilo Caballero",
+		"cargo" => "(U. of Salamanca, Spain)<br>Research Assistant",
 		"descripcion" => "Msc. on Sociology and Ph.D. candidate in Logic and Philosophy of Science at the University of Salamanca, Spain. His operation areas include Social Studies of Sciece and Technology, Information and Communication Technologies for Local Developement, State Management. He works as a coordinator assitant at the NGO Enfoque Territorial and at the Servicio de Apoyo Indígena. He has perfomed as coordinator and communication assitant at CADEP, and worked as consultant for the NGO Semillas Para la Democracia"
 	);
 
 $miembro_6 = array(
-		"nombre" => "Marcelo Alcaraz<br>(UCA, Paraguay)<br>Junior Researcher",
+		"nombre" => "Marcelo Alcaraz",
+		"cargo" => "(UC, Paraguay)<br>Junior Researcher",
 		"descripcion" => "He holds a bachelor degree in Informatics from the Catholic University of Asuncion. He has joined Participa's team as a junior researcher to work on his final project for the Informatics Engineering degree."
 	);
 
 $miembro_7 = array(
-		"nombre" => "Rebeca Arteta<br>(UCA, Paraguay)<br>Junior Researcher",
+		"nombre" => "Rebeca Arteta",
+		"cargo" => "(UC, Paraguay)<br>Junior Researcher",
 		"descripcion" => "She holds a bachelor degree in Informatics from the Catholic University of Asuncion. She has joined the projet as a junior researcher to work on her final project for the Informatics Engineering degree. She works as a back-end deveolper in a paraguayan software company."
 	);
 

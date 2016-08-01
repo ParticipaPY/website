@@ -15,7 +15,9 @@ $menu = array(
 		"experiencias" => "Casos de Estudio",
 		"soluciones" => "Soluciones",
 		"equipo" => "Equipo",
-		"contactos" => "Contacto"
+		"contactos" => "Contacto",
+		"financiado por" => "Financiado por",
+		"instituciones" => "Instituciones"
 	);
 
 
@@ -89,38 +91,44 @@ $sol_tec_1 = array(
 // Miembros del equipo de trabajo
 
 $miembro_3 = array(
-		"nombre" => "Ing. Jorge Saldivar<br>(UniTN/UCA)<br>Investigador Asociado",
+		"nombre" => "Ing. Jorge Saldivar",
+		"cargo" => "(UniTN/UC)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Su trabajo se centran las áreas de Social Informatics aplicada a los dominios de participación cívica, innovación democrática, crowdsourcing, idea management, y redes sociales. Desde el 2011 es parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia)"
 	);
 
 $miembro_1 = array(
-		"nombre" => "Prof. Dr. Luca Cernuzzi<br>(UCA, Paraguay)<br>Investigador Principal y Director de proyecto.",
+		"nombre" => "Prof. Dr. Luca Cernuzzi",
+		"cargo" => "(UC, Paraguay)<br>Investigador Principal y Director de proyecto.",
 		"descripcion" => "Doctor en Ingeniería por la Universidad de Moderna y Reggio Emilia (Italia). Su trabajo se centra en las áreas de Ingeniería del Software, Agentes, Tecnologías de Apoyo para personas con necesidades especiales, Informática Educativa, Tecnología Web e Hipermedia. Presenta publicaciones en revistas, libros y trabajos en eventos internacionales, regionales y nacionales. Actualmente se desempeña como decano de la Facultad de Ciencias y Tecnologías de la Universidad Católica de Asunción (Paraguay) y es co-tutor de trabajo de tesis de estudiantes de doctorado"
 	);
 
 $miembro_2 = array(
-		"nombre" => "Prof. Dr. Vincenzo D’Andrea<br>(UniTN, Italia)<br>Investigador Asociado",
+		"nombre" => "Prof. Dr. Vincenzo D’Andrea",
+		"cargo" => "(UniTN, Italia)<br>Investigador Asociado",
 		"descripcion" => "Profesor Asociado en la  Universidad de Trento. Miembro del Departamento de Ingenieria y Ciencia de la Información. Se desempeña como profesor en el Departamento de Sociología e Investigación Social y en el Departamento de Ingeniera y Ciencia de la Computación. Vicecoordinador del ICT International Doctoral School. Cientifico Director del Doctoral Training Center on ICT for Quality of Life (parte de EIT ICT Labs Doctoral School)"
 	);
 
 $miembro_4 = array(
-		"nombre" => "Dr. Cristhian Parra<br>(UC, Berkeley, EEUU)<br>Investigador Asociado
-",
+		"nombre" => "Dr. Cristhian Parra",
+		"cargo" => "(U. of California, Berkeley, EEUU)<br>Investigador Asociado",
 		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Universita de Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de California, Berkeley, y en el INRIA (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
 	);
 
 $miembro_5 = array(
-		"nombre" => "Msc. Camilo Caballero<br>(U. de Salamanca, España)<br>Investigador Asociado",
+		"nombre" => "Msc. Camilo Caballero",
+		"cargo" => "(U. de Salamanca, España)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Lógica y Filosofía de la Ciencia. Sus áreas son Estudios Sociales de la Ciencia y la Tecnología; TICs y Desarrollo Local; Gestión de Estado. Se desempeña como asistente de coordinación de proyecto en la organización Enfoque Territorial y en el Servicio de Apoyo Indígena. Ha sido acesor de coordinación y comunicación en el CADEP (Centro de Análisis y Difusion de la Economia Paraguaya) y Consultor en el programa Semillas Para la Democracia."
 	);
 
 $miembro_6 = array(
-		"nombre" => "Lic. Marcelo Alcaraz<br>(UCA, Paraguay)<br>Investigador Junior",
+		"nombre" => "Lic. Marcelo Alcaraz",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
 		"descripcion" => "Ha culminado la Licenciatura en Informática en la Universidad Católica de Asunción. Se integra al proyecto como investigador junior iniciando con este su proyecto de fin de carrera para obtener el título de grado en Ingeniería."
 	);
 
 $miembro_7 = array(
-		"nombre" => "Lic. Rebeca Arteta<br>(UCA, Paraguay)<br>Investigadora Junior",
+		"nombre" => "Lic. Rebeca Arteta<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigadora Junior",
 		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica de Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de software."
 	);
 
