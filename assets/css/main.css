@@ -3624,8 +3624,10 @@
 
 /* LOGOS */
 .logo{
+	    padding: 0 5px 0 5px;
         display: inline-block;
-        height: 100px;
+        height: 90px;
+        /*width: 100%;*/
         filter: gray;
         filter: grayscale(1);
         -webkit-filter: grayscale(100%);
