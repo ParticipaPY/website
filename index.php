@@ -560,8 +560,8 @@ if ($_GET["lang"] == "en"){
 								<div class="4u 12u(narrower)">
 
 									<section>
-										<span class="icon featured fa-location-arrow"></span>
-										<p style="font-size: 11pt;">Universidad Católica "Nuestra Señora de la Asunción"<br>Campus Universitario. Tte. Cantaluppi y Villalón.<br>C.C. 1683. Asunción - Paraguay </p>
+										<a href="https://www.google.com.py/maps/place/Universidad+Cat%C3%B3lica+Nuestra+Se%C3%B1ora+de+la+Asunci%C3%B3n/@-25.3264224,-57.6382384,15z/data=!4m5!3m4!1s0x0:0xa70c71f9d5efbaa9!8m2!3d-25.3237132!4d-57.6364473?hl=es" target="_blank" style="color:#7c8081;"><span class="icon featured fa-location-arrow" style="cursor: pointer;" ></span></a>
+										<p style="font-size: 11pt;">Universidad Católica "Nuestra Señora de la Asunción<br>Campus Universitario. Tte. Cantaluppi y Villalón<br>C.C. 1683. Asunción Paraguay </p>
 									</section>
 
 								</div>
