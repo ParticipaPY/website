@@ -385,7 +385,7 @@ if ($_GET["lang"] == "en"){
 										</p>-->
 										<ul class="icons">
 												<!-- <li><a href="#" class="icon fa-linkedin-square"></a></li> -->
-												<li><a href="mailto:marce.mmad@gmail.com" class="icon fa-envelope"></a></li>
+												<li><a href="mailto:marcelo.alcaraz@uc.edu.py" class="icon fa-envelope"></a></li>
 												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
 											</ul>
 									</section>
@@ -405,7 +405,7 @@ if ($_GET["lang"] == "en"){
 										</p>-->
 										<ul class="icons">
 												<!-- <li><a href="#" class="icon fa-linkedin-square"></a></li> -->
-												<li><a href="mailto:rebkartt@gmail.com" class="icon fa-envelope"></a></li>
+												<li><a href="mailto:rebeca.arteta@uc.edu.py" class="icon fa-envelope"></a></li>
 												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
 											</ul>
 									</section>
@@ -569,7 +569,7 @@ if ($_GET["lang"] == "en"){
 
 									<section>
 										<span class="icon featured fa-envelope"></span>
-										<p style="font-size: 11pt;">E-mail:<br><a href="mailto:participa@uca.edu.py" class="button"> participa@uca.edu.py</a></p>
+										<p style="font-size: 11pt;">E-mail:<br><a href="mailto:participa@uc.edu.py" class="button"> participa@uc.edu.py</a></p>
 									</section>
 
 								</div>
