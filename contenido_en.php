@@ -60,9 +60,17 @@ $resultados = array(
 // Experiencias previas
 $exp_prev_1 = array(
 		"nombre" => "Voz y Voto",
-		"descripcion" => "Members of Participa's tema took part in the implementation of Voz y Voto. Voz y voto was civic a engagement initiative organized by Sebastián Villarejo (current municipal councilman of Asuncion, the capital of Paraguay) and his electoral campaign team on late 2015. The project aimed at involving Asuncion's citizens on the discussion of ideas for addressing problems related to sustainable urban mobility, garbage and recycling, city management, and others. Voz y voto leverage on a specially-designed idea management platform, IdeaScale, and Facebook to build a virtual space through which citizens can share ideas, vote and give opinions on how these problems can be solved. After about 3 months of discussion, a set of promising ideas were selected for study."
+		"descripcion" => "Members of Participa's tema took part in the implementation of Voz y Voto. Voz y voto was civic a engagement initiative organized by Sebastián Villarejo (current municipal councilman of Asuncion, the capital of Paraguay) and his electoral campaign team on late 2015. The project aimed at involving Asuncion's citizens on the discussion of ideas for addressing problems related to sustainable urban mobility, garbage and recycling, city management, and others. Voz y voto leverage on a specially-designed idea management platform, IdeaScale, and Facebook to build a virtual space through which citizens can share ideas, vote and give opinions on how these problems can be solved. After about 3 months of discussion, a set of promising ideas were selected for study.",
+		"url" => "http://vozyvoto.org/",
+		"img" => "images/vozyvoto.jpg"
 	);
 
+$exp_prev_2 = array(
+		"nombre" => "Participa en tu Educación",
+		"descripcion" => "Participa en tu Educación is an online participation space where citizens can ideate together solutions for educational issues of Paraguay on three particular areas: Education Infrastructure, Teacher Training and School Attendance. It works through two participation channels, a Facebook group and a website on IdeaScale platform. In the background, the Social Ideation App keeps synchronized the content of both channels.",
+		"url" => "http://participaentueducacion.org.py",
+		"img" => "images/participaentueducacion.png"
+	);
 // // Plantilla
 // $exp_prev_N = array(
 // 		"nombre" => "",
@@ -77,7 +85,9 @@ $exp_prev_1 = array(
 $sol_tec_1 = array(
 		"nombre" => "Social Ideation App",
 		"descripcion" => "
-		Social Ideation is an application that connects IdeaScale &mdash; one of today's leading online idea management platforms &mdash; with the world's largest virtual space of participation and socialization, Facebook, allowing people to participate on IdeaScale-based public consultations initiatives from Facebook."
+		Social Ideation is an application that connects IdeaScale &mdash; one of today's leading online idea management platforms &mdash; with the world's largest virtual space of participation and socialization, Facebook, allowing people to participate on IdeaScale-based public consultations initiatives from Facebook.",
+		"url" => "http://www.social-ideation.com/",
+		"img" => "images/social_ideation_icon.png"
 	);
 
 // // Plantilla

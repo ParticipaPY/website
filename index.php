@@ -180,31 +180,41 @@ if ($_GET["lang"] == "en"){
 							<header class="major">
 								<h2><?php echo $menu["experiencias"]; ?></h2>
 							</header>
-							<table>
+							<!-- <table>
 						        <tr>
 						  			<td width="30%" style="vertical-align:middle;">
-						         		<a href="http://vozyvoto.org/" class="image"><img src="images/vozyvoto.jpg" alt="" height=auto width=90% style="display:block;"/></a>
+						         		<a href="<?php echo $exp_prev_1["url"]; ?>" class="image"><img src="<?php echo $exp_prev_1["img"]; ?>" alt="" height=auto width=90% style="display:block;"/></a>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="http://vozyvoto.org/" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_1["nombre"]; ?></a> : <?php echo $exp_prev_1["descripcion"]; ?>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="<?php echo $exp_prev_1["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_1["nombre"]; ?></a> : <?php echo $exp_prev_1["descripcion"]; ?>
 						            </td>
 						        </tr>
-    						</table>
-							<!-- <div class="row">
-								<div class="12u 12u(narrower)">
-								
-									<section>
-										<a href="http://vozyvoto.org/" class="image featured"><img src="images/vozyvoto.jpg" alt="" /></a>
-										<header>
-											<h3><?php echo $exp_prev_1["nombre"]; ?></h3>
-										</header>
-										<p style="text-align : justify;">
-											<?php echo $exp_prev_1["descripcion"]; ?>
-										</p>
-									</section>
+						        <br>
+						        <tr>
+						  			<td width="30%" style="vertical-align:middle;">
+						         		<a href="<?php echo $exp_prev_2["url"]; ?>" class="image"><img src="<?php echo $exp_prev_2["img"]; ?>" alt="" height=auto width=90% style="display:block;"/></a>
+						         	</td>
+						         	
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="<?php echo $exp_prev_2["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_2["nombre"]; ?></a> : <?php echo $exp_prev_2["descripcion"]; ?>
+						            </td>
+						        </tr>
+    						</table> -->
+						<div class="row">
+								<div class="4u 8u(narrower)">
+        							<a href="<?php echo $exp_prev_1["url"]; ?>" class="image"><img src="<?php echo $exp_prev_1["img"]; ?>" alt="" height=auto width=90% style="display:block; padding-top: 1em;"/></a>
 								</div>
-							</div> -->
-
+								<div class="8u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    <a href="<?php echo $exp_prev_1["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_1["nombre"]; ?></a> : <?php echo $exp_prev_1["descripcion"]; ?>
+								</div>
+							</div>
+							<div class="row">
+								<div class="4u 8u(narrower)">
+        							<a href="<?php echo $exp_prev_2["url"]; ?>" class="image"><img src="<?php echo $exp_prev_2["img"]; ?>" alt="" height=auto width=90% style="display:block; padding-top: 1em;"/></a>
+								</div>
+								<div class="8u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    <a href="<?php echo $exp_prev_2["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_2["nombre"]; ?></a> : <?php echo $exp_prev_2["descripcion"]; ?>
+								</div>
+							</div>
 						</section>
 
 <!-- SOLUCIONES TECNOLOGICAS -->
@@ -213,38 +223,25 @@ if ($_GET["lang"] == "en"){
 							<header class="major">
 								<h2><?php echo $menu["soluciones"]; ?></h2>
 							</header>
-							<table>
+							<!-- <table>
 						        <tr>
 						  			<td width="30%" style="vertical-align:middle;">
-						         		<a href="http://www.social-ideation.com/" class="image"><img src="images/social_ideation_icon.png" alt="" height=auto width=70% style="display:block;"/></a>
+						         		<a href="<?php echo $sol_tec_1["url"]; ?>" class="image"><img src="<?php echo $sol_tec_1["img"]; ?>" alt="" height=auto width=90% style="display:block;"/></a>
 						         	</td>
 						         	
-						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="http://www.social-ideation.com/" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_1["nombre"]; ?></a> : <?php echo $sol_tec_1["descripcion"]; ?>
+						            <td width="70%" align="justify" style="vertical-align:middle;"> <a href="<?php echo $sol_tec_1["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_1["nombre"]; ?></a> : <?php echo $sol_tec_1["descripcion"]; ?>
 						            </td>
 						        </tr>
-    						</table>
-							<!-- <div class="row">
-								<div class="12u 12u(narrower)">
-
-									<section>
-										<a href="http://www.social-ideation.com/" class="image featured"><img src="images/socialideation.jpg" alt="" /></a>
-										<header>
-											<h3><?php echo $sol_tec_1["nombre"]; ?></h3>
-										</header>
-										<p style="text-align : justify;">
-											<?php echo $sol_tec_1["descripcion"]; ?>
-										</p>
-									</section>
-
-								</div>
-							</div> -->
+    						</table>  -->
 							
-
-						<!-- 	<footer class="major">
-								<ul class="buttons">
-									<li><a href="#" class="button">See More</a></li>
-								</ul>
-							</footer> -->
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							<a href="<?php echo $sol_tec_1["url"]; ?>" class="image"><img src="<?php echo $sol_tec_1["img"]; ?>" alt="" height=auto width=90% style="display:block;"/></a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    <a href="<?php echo $sol_tec_1["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_1["nombre"]; ?></a> : <?php echo $sol_tec_1["descripcion"]; ?>
+								</div>
+							</div>
 
 						</section>
 

@@ -59,9 +59,17 @@ $resultados = array(
 // Experiencias previas
 $exp_prev_1 = array(
 		"nombre" => "Voz y Voto",
-		"descripcion" => "Miembros del equipo Participa formaron parte de la implementación de la iniciativa Voz y voto, la cual, impulsada a finales del 2015 por el actual concejal por Asunción Sebastián Villarejo, buscaba involucrar a los Asuncenos en la discusión de ideas temas como la movilidad urbana sostenible, basura y reciclaje, gestión municipal, entre otros. Luego de casi 3 meses de interacción y discusión por medio de un espacio virtual creado en la plataforma IdeaScale y un grupo de Facebook una serie de ideas fueron puestas a consideración y están siendo estudiadas para su posible aplicación."
+		"descripcion" => "Miembros del equipo Participa formaron parte de la implementación de la iniciativa Voz y voto, la cual, impulsada a finales del 2015 por el actual concejal por Asunción Sebastián Villarejo, buscaba involucrar a los Asuncenos en la discusión de ideas temas como la movilidad urbana sostenible, basura y reciclaje, gestión municipal, entre otros. Luego de casi 3 meses de interacción y discusión por medio de un espacio virtual creado en la plataforma IdeaScale y un grupo de Facebook una serie de ideas fueron puestas a consideración y están siendo estudiadas para su posible aplicación.",
+		"url" => "http://vozyvoto.org/",
+		"img" => "images/vozyvoto.jpg"
 	);
 
+$exp_prev_2 = array(
+		"nombre" => "Participa en tu Educación",
+		"descripcion" => "Participa en tu Educación es un espacio de participación online para que los ciudadanos puedan idear en conjunto soluciones para los desafíos de la educación en Paraguay en tres áreas particulares: Infraestructura Educativa, Formación Docente y Asistencia Escolar. Funciona a través de dos canales de participación, un grupo de Facebook y un sitio en la plataforma IdeaScale. Por detrás la aplicación social ideation mantiene sincronizado el contenido de ambos canales.",
+		"url" => "http://participaentueducacion.org.py",
+		"img" => "images/participaentueducacion.png"
+	);
 // // Plantilla
 // $exp_prev_N = array(
 // 		"nombre" => "",
@@ -75,7 +83,9 @@ $exp_prev_1 = array(
 // Soluciones Tecnologicas
 $sol_tec_1 = array(
 		"nombre" => "Social Ideation App",
-		"descripcion" => "Social Ideation App es una aplicación que conecta IdeaScale — una de las plataformas líderes en el mercado de sistemas de gestión de ideas — con Facebook — el espacio virtual de participación más grande del mundo — permitiendo a la gente tomar parte directamente desde Facebook en procesos de ideación colectiva implementados en IdeaScale."
+		"descripcion" => "Social Ideation App es una aplicación que conecta IdeaScale — una de las plataformas líderes en el mercado de sistemas de gestión de ideas — con Facebook — el espacio virtual de participación más grande del mundo — permitiendo a la gente tomar parte directamente desde Facebook en procesos de ideación colectiva implementados en IdeaScale.",
+		"url" => "http://www.social-ideation.com/",
+		"img" => "images/social_ideation_icon.png"
 	);
 
 // // Plantilla
