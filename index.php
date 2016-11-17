@@ -39,8 +39,10 @@ if ($_GET["lang"] == "en"){
 							<li><a href="#resultados" class="button"><?php echo $menu["resultados"]; ?></a></li>
 							<li><a href="#experiencias" class="button"><?php echo $menu["experiencias"]; ?></a></li>
 							<li><a href="#soluciones" class="button"><?php echo $menu["soluciones"]; ?></a></li>
+							<li><a href="#publicaciones" class="button"><?php echo $menu["publicaciones"]; ?></a></li>
 							<li><a href="#equipo" class="button"><?php echo $menu["equipo"]; ?></a></li>
 							<li><a href="#contactos" class="button"><?php echo $menu["contactos"]; ?></a></li>
+
 						</ul>
 					</nav>
 				</header>
@@ -240,6 +242,38 @@ if ($_GET["lang"] == "en"){
 								</div>
 								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
                                     <a href="<?php echo $sol_tec_1["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_1["nombre"]; ?></a> : <?php echo $sol_tec_1["descripcion"]; ?>
+								</div>
+							</div>
+
+						</section>
+
+				</article>
+
+<!-- PUBLICACIONES -->
+						<section class="wrapper style3 container special" id="publicaciones">
+
+							<header class="major">
+								<h2><?php echo $menu["publicaciones"]; ?></h2>
+							</header>
+							
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_1["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_1["texto"]; ?>
+								</div>
+							</div>
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_2["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_2["texto"]; ?>
 								</div>
 							</div>
 

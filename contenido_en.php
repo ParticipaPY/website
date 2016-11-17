@@ -18,7 +18,8 @@ $menu = array(
 		"equipo" => "Team",
 		"contactos" => "Contact Us",
 		"financiado por" => "Financially supported by",
-		"instituciones" => "Institutions"
+		"instituciones" => "Institutions",
+		"publicaciones" => "Publications"
 	);
 
 
@@ -95,6 +96,17 @@ $sol_tec_1 = array(
 // 		"nombre" => "",
 // 		"descripcion" => ""
 // 	);
+
+
+$paper_1 = array(
+		"texto" => "Jorge Saldivar, Marcos Baez, Carlos Rodriguez, Gregorio Convertino, Grzegorz Kowalik. Idea Management Communities in the Wild: An exploratory study of 166 online communities. CTS 2016.",
+		"link" => "https://www.dropbox.com/s/x9ux2iaavrhu35o/im-in-the-wild-proceeding.pdf?dl=0"
+	);
+
+$paper_2 = array(
+		"texto" => "Jorge Saldivar, Florian Daniel, Fabio Casati, Luca Cernuzzi. Idea Management in Social Networks: A Study of how to Tap into the Ideas of Facebook Communities. CTS 2016.",
+		"link" => "https://www.dropbox.com/s/2123m2ec22otm3x/im-fb-proceeding.pdf?dl=0"
+	);
 
 
 // Titulo de la seccion de Equipo de Trabajo
