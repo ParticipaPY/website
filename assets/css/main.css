@@ -1971,6 +1971,11 @@
 				font-size: 6.25em;
 				height: 1.5em;
 				line-height: 1.25em;
+				width: 1.5em;
+	
+				border-radius: 150px;
+				-webkit-border-radius: 150px;
+				-moz-border-radius: 150px;
 				/*width: 2em;*/
 			}
 
@@ -2944,6 +2949,7 @@
 						font-size: 4em;
 						width: 1.25em;
 					}
+
 
 			ul.buttons li {
 				display: block;

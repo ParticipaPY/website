@@ -153,6 +153,12 @@ $miembro_7 = array(
 		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica de Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de software."
 	);
 
+$propuesta = array(
+        "¿Te gustaría trabajar con nosotros?",
+        "Fijate en las propuestas de tesis de grado y postgrado que tenemos disponibles",
+        "ver propuestas"
+	)
+
 // // Plantilla
 // $miembro_N = array(
 // 		"nombre" => "",

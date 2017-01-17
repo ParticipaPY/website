@@ -158,6 +158,12 @@ $miembro_7 = array(
 		"descripcion" => "She holds a bachelor degree in Informatics from the Catholic University of Asuncion. She has joined the projet as a junior researcher to work on her final project for the Informatics Engineering degree. She works as a back-end deveolper in a paraguayan software company."
 	);
 
+$propuesta = array(
+        "¿Would you like to work with us?",
+        "Take a look at the available projects",
+        "Project list"
+	)
+
 // // Plantilla
 // $miembro_N = array(
 // 		"nombre" => "",

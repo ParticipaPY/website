@@ -304,7 +304,7 @@ if ($_GET["lang"] == "en"){
 										<!-- <footer> -->
 											<ul class="icons">
 												<li><a href="https://www.linkedin.com/in/luca-cernuzzi-b70887?authType=name&authToken=Dyxm&trk=prof-proj-cc-name" class="icon fa-linkedin-square"></a></li>
-												<li><a href="mailto:lcernuzz@uca.edu.py" class="icon fa-envelope"></a></li>
+												<li><a href="mailto:lcernuzz@uc.edu.py" class="icon fa-envelope"></a></li>
 												<li><a href="https://scholar.google.com/citations?user=pa79bD8AAAAJ&hl=es&oi=ao" class="icon fa-graduation-cap"></a></li>
 											</ul>
 										<!-- </footer> -->
@@ -371,7 +371,7 @@ if ($_GET["lang"] == "en"){
 										</p>-->
 										<ul class="icons">
 												<li><a href="https://www.linkedin.com/in/cristhianparra" class="icon fa-linkedin-square"></a></li>
-												<li><a href="mailto:cdparra@gmail.com" class="icon fa-envelope"></a></li>
+												<li><a href="mailto:cdparra@berkeley.edu" class="icon fa-envelope"></a></li>
 												<li><a href="https://scholar.google.com.py/citations?user=t4dRkMYAAAAJ&hl=en&oi=ao" class="icon fa-graduation-cap"></a></li>
 												<li><a href="http://cdparra.info/" class="icon fa-globe"></a></li>
 										</ul>
@@ -396,7 +396,7 @@ if ($_GET["lang"] == "en"){
 										</p>-->
 										<ul class="icons">
 												<li><a href="https://py.linkedin.com/in/camilojco" class="icon fa-linkedin-square"></a></li>
-												<li><a href="camilojco88@gmail.com" class="icon fa-envelope"></a></li>
+												<li><a href="mailto:camilojco88@gmail.com" class="icon fa-envelope"></a></li>
 												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
 										</ul>
 									</section>
@@ -443,6 +443,11 @@ if ($_GET["lang"] == "en"){
 								</div>
 							</div>
 						
+                            <b><?php echo $propuesta[0]; ?></b></br><?php echo $propuesta[1]; ?></br>
+
+						    <a href="https://docs.google.com/document/d/1dhjomjHeVacbT9Qah6HKGJ_dlLbo3xh3MF2J-amR0uY/edit?usp=sharing" class="button" target="blank"> <?php echo $propuesta[2]; ?></a>
+						     
+
 				<!-- 	<header>
 						<h2>Ready to do <strong>something</strong>?</h2>
 						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
