@@ -72,6 +72,14 @@ $exp_prev_2 = array(
 		"url" => "http://participaentueducacion.org.py",
 		"img" => "images/participaentueducacion.png"
 	);
+
+
+$exp_prev_3 = array(
+		"nombre" => "Participa en tu Congreso",
+		"descripcion" => "Participa en tu Congreso is an initiative carried out together with Reglas Claras campaign. It is an online space where anybody can contribute with ideas to increase transparency and citizens' participation in the Congress of Paraguay. It works through two participation channels, a Facebook group and a website on IdeaScale platform. In the background, the Social Ideation App keeps synchronized the content of both channels.",
+		"url" => "http://reglasclaras.org.py",
+		"img" => "images/reglasclaras.png"
+	);
 // // Plantilla
 // $exp_prev_N = array(
 // 		"nombre" => "",

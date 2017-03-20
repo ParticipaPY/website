@@ -217,6 +217,14 @@ if ($_GET["lang"] == "en"){
                                     <a href="<?php echo $exp_prev_2["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_2["nombre"]; ?></a> : <?php echo $exp_prev_2["descripcion"]; ?>
 								</div>
 							</div>
+							<div class="row">
+								<div class="4u 8u(narrower)">
+        							<a href="<?php echo $exp_prev_3["url"]; ?>" class="image"><img src="<?php echo $exp_prev_3["img"]; ?>" alt="" height=auto width=90% style="display:block; padding-top: 1em;"/></a>
+								</div>
+								<div class="8u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    <a href="<?php echo $exp_prev_3["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_3["nombre"]; ?></a> : <?php echo $exp_prev_3["descripcion"]; ?>
+								</div>
+							</div>
 						</section>
 
 <!-- SOLUCIONES TECNOLOGICAS -->

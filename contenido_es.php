@@ -71,6 +71,14 @@ $exp_prev_2 = array(
 		"url" => "http://participaentueducacion.org.py",
 		"img" => "images/participaentueducacion.png"
 	);
+
+$exp_prev_3 = array(
+		"nombre" => "Participa en tu Congreso",
+		"descripcion" => "Participa en tu Congreso es una iniciativa conjunta con la campaña Reglas Claras. Consiste es un espacio donde todos pueden aportar sus ideas para aumentar la transparencia y participación de la ciudadanía en el Congreso del Paraguay. Funciona a través de dos canales de participación, un grupo de Facebook y un sitio en la plataforma IdeaScale. Por detrás la aplicación social ideation mantiene sincronizado el contenido de ambos canales.",
+		"url" => "http://reglasclaras.org.py",
+		"img" => "images/reglasclaras.png"
+	);
+
 // // Plantilla
 // $exp_prev_N = array(
 // 		"nombre" => "",
