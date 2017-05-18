@@ -116,6 +116,16 @@ $paper_2 = array(
 		"link" => "https://www.dropbox.com/s/2123m2ec22otm3x/im-fb-proceeding.pdf?dl=0"
 	);
 
+$paper_3 = array(
+	 	 "texto" => "Tanja Aitamurto, Jorge Saldivar. Examining the Quality of Crowdsourced Deliberation: Respect, Reciprocity and Lack of Common-Good Orientation. CHI’17 Extended Abstracts, May 06-11, 2017, Denver, CO, USA.",
+         "link" => "http://thefinnishexperiment.com/wp-content/uploads/2017/04/quality-crowdsourced-deliberation.pdf"
+    );
+
+$paper_4 = array(
+		"texto" => "Jorge Saldivar. Empowering Online Idea Management for Civic Engagement with Public Displays and Social Networking Services. PhD Thesis, University of Trento. 2017 ",
+		"link" => "http://eprints-phd.biblio.unitn.it/2070/1/phd-thesis-jorgesaldivar.pdf"
+	);
+
 
 // Titulo de la seccion de Equipo de Trabajo
 // $t_equipo = "Team";

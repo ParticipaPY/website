@@ -284,6 +284,26 @@ if ($_GET["lang"] == "en"){
                                      <?php echo $paper_2["texto"]; ?>
 								</div>
 							</div>
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_3["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_3["texto"]; ?>
+								</div>
+							</div>
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_4["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_4["texto"]; ?>
+								</div>
+							</div>
 
 						</section>
 
