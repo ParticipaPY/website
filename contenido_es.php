@@ -120,8 +120,13 @@ $paper_3 = array(
     );
 
 $paper_4 = array(
-		"texto" => "Jorge Saldivar. Empowering Online Idea Management for Civic Engagement with Public Displays and Social Networking Services. Tesis Doctoral, Universidad de Trento. 2017",
+		"texto" => "Jorge Saldivar. Empowering Online Idea Management for Civic Engagement with Public Displays and Social Networking Services. Tesis Doctoral, Universidad de Trento. 2017.",
 		"link" => "http://eprints-phd.biblio.unitn.it/2070/1/phd-thesis-jorgesaldivar.pdf"
+	);
+
+$paper_5 = array(
+		"texto" => "Tanja Aitamurto, Jorge Saldivar. Motivation Factors in Crowdsourced Policymaking: Problem Solving, Learning, and Voicing the Crowd’s Experience. 67th Conference – International Communication Association, San Diego, CA, USA, 2017.",
+		"link" => "https://www.dropbox.com/s/eqyjgcnw2i0zrbn/ICA_Motivation_Tanja_Jorge.pdf?dl=0"
 	);
 // Titulo de la seccion de Equipo de Trabajo
 // $t_equipo = "Equipo de Trabajo";

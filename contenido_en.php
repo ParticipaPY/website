@@ -126,6 +126,10 @@ $paper_4 = array(
 		"link" => "http://eprints-phd.biblio.unitn.it/2070/1/phd-thesis-jorgesaldivar.pdf"
 	);
 
+$paper_5 = array(
+		"texto" => "Tanja Aitamurto and Jorge Saldivar. Motivation Factors in Crowdsourced Policymaking: Problem Solving, Learning, and Voicing the Crowd’s Experience. In the 67th Conference – International Communication Association, San Diego, CA, USA, 2017.",
+		"link" => "https://www.dropbox.com/s/eqyjgcnw2i0zrbn/ICA_Motivation_Tanja_Jorge.pdf?dl=0"
+	);
 
 // Titulo de la seccion de Equipo de Trabajo
 // $t_equipo = "Team";
