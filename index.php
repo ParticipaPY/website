@@ -253,6 +253,15 @@ if ($_GET["lang"] == "en"){
 								</div>
 							</div>
 
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							<a href="<?php echo $sol_tec_2["url"]; ?>" class="image"><img src="<?php echo $sol_tec_2["img"]; ?>" alt="" height=auto width=90% style="display:block;"/></a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    <a href="<?php echo $sol_tec_2["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_2["nombre"]; ?></a> : <?php echo $sol_tec_2["descripcion"]; ?>
+								</div>
+							</div>
+
 						</section>
 
 				</article>
@@ -264,6 +273,10 @@ if ($_GET["lang"] == "en"){
 								<h2><?php echo $menu["publicaciones"]; ?></h2>
 							</header>
 							
+							<div class="row">
+								<h2><?php echo $menu["papers"]; ?></h2>
+							</div>
+
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
@@ -304,6 +317,8 @@ if ($_GET["lang"] == "en"){
                                      <?php echo $paper_4["texto"]; ?>
 								</div>
 							</div>
+
+							
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
@@ -315,6 +330,75 @@ if ($_GET["lang"] == "en"){
 								</div>
 							</div>
 
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_6["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_6["texto"]; ?>
+								</div>
+							</div>
+
+							<div class="row">
+								<h2><?php echo $menu["reportes"]; ?></h2>
+							</div>					
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_1["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_1["texto"]; ?>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_2["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_2["texto"]; ?>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_3["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_3["texto"]; ?>
+								</div>
+							</div>	
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_4["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_4["texto"]; ?>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_5["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_5["texto"]; ?>
+								</div>
+							</div>							
 						</section>
 
 				</article>

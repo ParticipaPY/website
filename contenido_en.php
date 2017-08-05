@@ -19,7 +19,9 @@ $menu = array(
 		"contactos" => "Contact Us",
 		"financiado por" => "Financially supported by",
 		"instituciones" => "Institutions",
-		"publicaciones" => "Publications"
+		"publicaciones" => "Publications",
+		"papers" => "Scientific Publications",
+		"reportes" => "Technical Reports"
 	);
 
 
@@ -99,11 +101,12 @@ $sol_tec_1 = array(
 		"img" => "images/social_ideation_icon.png"
 	);
 
-// // Plantilla
-// $sol_tec_N = array(
-// 		"nombre" => "",
-// 		"descripcion" => ""
-// 	);
+$sol_tec_2 = array(
+		"nombre" => "AppCivist",
+		"descripcion" => "AppCivist is a software platform for democratic assembly and collective action that lets users design and build their own Assemblies, with modular components, to organize democratic action. It is a tool for collaborative decision-making that helps groups of people to tackle problems in their communities, discuss and decide on ideas for solutions, and turn those ideas into proposals.",
+		"url" => "https://pb.appcivist.org/#/v2/home",
+		"img" => "images/appcivistLogo.png"
+	);
 
 
 $paper_1 = array(
@@ -131,6 +134,35 @@ $paper_5 = array(
 		"link" => "https://www.dropbox.com/s/eqyjgcnw2i0zrbn/ICA_Motivation_Tanja_Jorge.pdf?dl=0"
 	);
 
+$paper_6 = array(
+		"texto" => "Cristhian Parra, Christelle Rohaut, Marianne Maeckelbergh, Valerie Issarny, James Holston. Expanding the Design Space of ICT for Participatory Budgeting. Communities and Technologies 2017, Jun 2017, Troyes, France. ACM, Communities and Technologies 2017, 2017.",
+		"link" => "https://hal.inria.fr/hal-01519127/file/20170430_ComTech-AppCivist-Paper-CameraReady.pdf"
+	);
+
+$reporte_1 = array(
+		"texto" => "Jorge Saldivar, Cristhian Parra, Marcelo Alcaraz, Rebeca Arteta, LucaCernuzzi. Estudio de la literatura: Tecnologías utilizadas para promover la participación ciudadana en la innovacióndel sector público. Reporte Técnico D1 - Proyecto Participa. 2016",
+		"link" => "https://www.dropbox.com/s/3mt5xe1lo28eb5u/Reporte%20T%C3%A9cnico%20D1%20-%20Estudio%20Literatura.pdf?dl=0"
+	);
+
+$reporte_2 = array(
+		"texto" => "Camilo Caballero, Marcelo Alcaraz, Rebeca Arteta, Jorge Saldivar, LucaCernuzzi. Estudio sobre problemáticasn acionales de interés público. Reporte Técnico D1 - Proyecto Participa. Reporte Técnico D2 - Proyecto Participa. 2016",
+		"link" => "https://www.dropbox.com/s/qavnwrtzzb4gmfn/Reporte%20Tecnico%20D2%20-%20Estudio%20Problem%C3%A1ticas.pdf?dl=0"
+	);
+
+$reporte_3 = array(
+		"texto" => "Camilo Caballero, Jorge Saldivar,Cristian Parra, Marcelo Alcaraz, Rebeca Arteta, Luca Cernuzzi. Participa en tu educación: Estudio piloto sobre innovación en el sector educativo paraguayo. Reporte Técnico D3 - Proyecto Participa. 2016",
+		"link" => "https://www.dropbox.com/s/oaquc9vv3pvbjvv/ReporteTecnicoD3-EstudioPiloto.pdf?dl=0"
+	);
+
+$reporte_4 = array(
+		"texto" => "Cristhian Parra, Vincenzo D’Andrea, JorgeSaldivar, LucaCernuzzi. Taller de Diseño Participativo. Reporte Técnico D4 - Proyecto Participa. 2017",
+		"link" => "https://www.dropbox.com/s/krtmvmau23s5zpo/Reporte%20T%C3%A9cnico%20D4%20-%20Taller%20de%20Dise%C3%B1o%20Participativo.pdf?dl=0"
+	);
+
+$reporte_5 = array(
+		"texto" => "Marcelo Alcaraz, Rebeca Arteta, Cristhian Parra, Jorge Saldivar. AppCivist: Desarrollo de plataforma de participación cívica. Reporte Técnico D5 - Proyecto Participa. 2017",
+		"link" => "https://www.dropbox.com/s/l3x1dsm60vslov1/Reporte%20Tecnico%20D5%20-%20AppCivist.pdf?dl=0"
+	);
 // Titulo de la seccion de Equipo de Trabajo
 // $t_equipo = "Team";
 
