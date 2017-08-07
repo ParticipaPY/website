@@ -101,7 +101,7 @@ $sol_tec_1 = array(
 
 $sol_tec_2 = array(
 		"nombre" => "AppCivist",
-		"descripcion" => "AppCivist es una plataforma de software para asambleas democráticas y acción colectiva que permite a los usuarios diseñar y construir sus propias asambleas, con componentes modulares, para organizar acciones democráticas. Es una herramienta colaborativa para la toma de decisiones que ayuda a grupos de personas a enfrentar problemas en sus comunidades, discudir y decidir sobre ideas de solucion",
+		"descripcion" => "AppCivist es una plataforma de software para asambleas democráticas y acción colectiva que permite a los usuarios diseñar y construir sus propias asambleas, con componentes modulares, para organizar acciones democráticas. Es una herramienta colaborativa para la toma de decisiones que ayuda a grupos de personas a enfrentar problemas en sus comunidades, discudir y decidir sobre ideas de solución, y convertir esas ideas en propuestas.",
 		"url" => "https://pb.appcivist.org/#/v2/home",
 		"img" => "images/appcivistLogo.png"
 	);
