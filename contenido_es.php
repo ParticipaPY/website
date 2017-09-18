@@ -167,7 +167,7 @@ $reporte_5 = array(
 // Miembros del equipo de trabajo
 
 $miembro_3 = array(
-		"nombre" => "Ing. Jorge Saldivar",
+		"nombre" => "Dr. Jorge Saldivar",
 		"cargo" => "(UniTN/UC)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Su trabajo se centran las áreas de Social Informatics aplicada a los dominios de participación cívica, innovación democrática, crowdsourcing, idea management, y redes sociales. Desde el 2011 es parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia)"
 	);
@@ -208,11 +208,30 @@ $miembro_7 = array(
 		"descripcion" => "Candidata a Ingeniera Informática por la Universidad Católica de Asunción. Se integra al proyecto como Investigadora Junior, iniciando con este su proyecto de fin de carrera. Se desempeña además como desarrolladora back-end en una empresa paraguaya de software."
 	);
 
+$miembro_8 = array(
+		"nombre" => "Ing. Guido Núñez<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"descripcion" => ""
+	);
+
+$miembro_9 = array(
+		"nombre" => "Ing. Jammily Ortigoza<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"descripcion" => ""
+	);
+
+$miembro_10 = array(
+		"nombre" => "Ing. Gustavo Vera<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"descripcion" => ""
+	);
+
+
 $propuesta = array(
         "¿Te gustaría trabajar con nosotros?",
         "Fijate en las propuestas de tesis de grado y postgrado que tenemos disponibles",
         "ver propuestas"
-	)
+	);
 
 // // Plantilla
 // $miembro_N = array(

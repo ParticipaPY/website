@@ -169,7 +169,7 @@ $reporte_5 = array(
 // Miembros del equipo de trabajo
 
 $miembro_3 = array(
-		"nombre" => "Ing. Jorge Saldivar",
+		"nombre" => "Dr. Jorge Saldivar",
 		"cargo" => "(UniTN/UC)<br>Research Assistant",
 		"descripcion" => "
 			Informatics Engineer and Ph.D. candidate in Information and Communication Technologies at the University of Trento and the Catholic University of Asuncion. He works on Social Informatics, more precisely on topics such as Civic Technology, Democratic Innovation, Crowdsourcing, Idea Management and Social Network Services. His previous experiences include collaboration works with the Hewlett-Packard's Information Analytics Research Group (Palo Alto, USA), with the Data and Democracy Research Group of the University of California (Berkeley, USA), and with researchers from the Brown Institute for Media Innovation of the Stanford University (Palo Alto, USA)"
@@ -212,11 +212,29 @@ $miembro_7 = array(
 		"descripcion" => "She holds a bachelor degree in Informatics from the Catholic University of Asuncion. She has joined the project as a junior researcher to work on her final project for the Informatics Engineering degree. She works as a back-end developer in a Paraguayan software company."
 	);
 
+$miembro_8 = array(
+		"nombre" => "Ing. Guido Núñez<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"descripcion" => ""
+	);
+
+$miembro_9 = array(
+		"nombre" => "Ing. Jammily Ortigoza<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"descripcion" => ""
+	);
+
+$miembro_10 = array(
+		"nombre" => "Ing. Gustavo Vera<br>",
+		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"descripcion" => ""
+	);
+
 $propuesta = array(
         "¿Would you like to work with us?",
         "Take a look at the available projects",
         "Project list"
-	)
+	);
 
 // // Plantilla
 // $miembro_N = array(

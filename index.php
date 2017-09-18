@@ -527,6 +527,71 @@ if ($_GET["lang"] == "en"){
 									<section>
 										<!-- <a href="#" class="image featured"><img src="images/camilo.jpg" alt="" /></a> -->
 										<ul class="featured-icons">
+											<li><img src="images/guido.jpg"></li>
+										</ul>
+										<!-- <header> -->
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_8["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_8["cargo"]; ?></p>
+										<!-- </header> -->
+										<!--<p style="font-size: 10pt; text-align : justify;">
+											<?php echo $miembro_6["descripcion"]; ?>
+										</p>-->
+										<ul class="icons">
+												<li><a href="https://www.linkedin.com/in/guido-nu%C3%B1ez-118a5511b/" class="icon fa-linkedin-square"></a></li>
+												<li><a href="mailto:guido.nunez@uc.edu.py" class="icon fa-envelope"></a></li>
+												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
+											</ul>
+									</section>
+								</div>
+								<div class="4u 12u(narrower)">
+									<section>
+										<!-- <a href="#" class="image featured"><img src="images/rebeca.jpg" alt="" /></a> -->
+										<ul class="featured-icons">
+											<li><img src="images/jammily.jpg"></li>
+										</ul>
+										<!-- <header> -->
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_9["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_9["cargo"]; ?></p>
+										<!-- </header> -->
+										<!--<p style="font-size: 10pt; text-align : justify;">
+											<?php echo $miembro_7["descripcion"]; ?>
+										</p>-->
+										<ul class="icons">
+												<!-- <li><a href="#" class="icon fa-linkedin-square"></a></li> -->
+												<li><a href="mailto:jortigozaf@gmail.com" class="icon fa-envelope"></a></li>
+												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
+											</ul>
+									</section>
+								</div>
+							</div>
+
+							<div class="row">
+																
+							
+								<div class="4u 12u(narrower)">
+									<section>
+										<!-- <a href="#" class="image featured"><img src="images/marcelo.jpg" alt="" /></a> -->
+										<ul class="featured-icons">
+											<li><img src="images/gustavo.jpg"></li>
+										</ul>
+										<!-- <header> -->
+											<h4 style="text-transform: none; margin-bottom: 0;"><b><?php echo $miembro_10["nombre"]; ?></b></h4>
+											<p style="font-size: 10pt"><?php echo $miembro_10["cargo"]; ?></p>
+										<!-- </header> -->
+										<!--<p style="font-size: 10pt; text-align : justify;">
+											<?php echo $miembro_5["descripcion"]; ?>
+										</p>-->
+										<ul class="icons">
+												<li><a href="https://www.linkedin.com/in/gvescu" class="icon fa-linkedin-square"></a></li>
+												<!-- <li><a href="mailto:camilojco88@gmail.com" class="icon fa-envelope"></a></li> -->
+												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
+										</ul>
+									</section>
+								</div>
+								<div class="4u 12u(narrower)">
+									<section>
+										<!-- <a href="#" class="image featured"><img src="images/camilo.jpg" alt="" /></a> -->
+										<ul class="featured-icons">
 											<li><img src="images/marcelo.jpg"></li>
 										</ul>
 										<!-- <header> -->
