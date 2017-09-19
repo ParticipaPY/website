@@ -214,19 +214,19 @@ $miembro_7 = array(
 
 $miembro_8 = array(
 		"nombre" => "Ing. Guido Núñez<br>",
-		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"cargo" => "(UC, Paraguay)<br>Junior Engineer",
 		"descripcion" => ""
 	);
 
 $miembro_9 = array(
 		"nombre" => "Ing. Jammily Ortigoza<br>",
-		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"cargo" => "(UC, Paraguay)<br>Junior Engineer",
 		"descripcion" => ""
 	);
 
 $miembro_10 = array(
-		"nombre" => "Ing. Gustavo Vera<br>",
-		"cargo" => "(UC, Paraguay)<br>Investigador Junior",
+		"nombre" => "Gustavo Vera Scuderi<br>",
+		"cargo" => "(Codium S.A., Paraguay)<br>Front-End Developer - External collaborator",
 		"descripcion" => ""
 	);
 

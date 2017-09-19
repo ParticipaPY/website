@@ -583,7 +583,7 @@ if ($_GET["lang"] == "en"){
 										</p>-->
 										<ul class="icons">
 												<li><a href="https://www.linkedin.com/in/gvescu" class="icon fa-linkedin-square"></a></li>
-												<!-- <li><a href="mailto:camilojco88@gmail.com" class="icon fa-envelope"></a></li> -->
+												<li><a href="mailto:gvera@codium.com.py" class="icon fa-envelope"></a></li>
 												<!-- <li><a href="#" class="icon fa-globe"></a></li> -->
 										</ul>
 									</section>
