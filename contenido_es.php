@@ -106,6 +106,19 @@ $sol_tec_2 = array(
 		"img" => "images/appcivistLogo.png"
 	);
 
+$sol_tec_3 = array(
+		"nombre" => "Participa Aware",
+		"descripcion" => "Plataforma móvil que surge de la necesidad de llegar a un mayor número de ciudadanos y cuya finalidad es motivarlos a participar.  Participa Aware provee un espacio de ideación y propuesta de solución a los problemas inherentes al entorno cotidiano del ciudadano, esto es teniendo en cuenta los tres lugares más frecuentados (Casa, Educación/Trabajo, Distracción), definidos por el usuario.",
+		"url" => "https://github.com/ParticipaPY/participa-aware",
+		"img" => "images/participa_aware_logo.png"
+	);
+
+$sol_tec_4 = array(
+		"nombre" => "Civic CrowdAnalytics",
+		"descripcion" => "Civic CrowdAnalytics es una novedosa herramienta de análisis que aplica Natural Language Processing (NLP) y Machine Learning (ML), como extracción de conceptos, clasificación de ideas, y análisis de sentimientos para analizar contribuciones cívicas de crowdsourcing. Esta herramienta automáticamente organiza las contribuciones en resúmenes y visualizaciones atractivas, que son fáciles de comprender, son accesibles y están interrelacionados.",
+		"url" => "https://pb.appcivist.org/#/v2/home",
+		"img" => "images/civic_crowdanalytics_logo.png"
+	);
 
 $paper_1 = array(
 		"texto" => "Jorge Saldivar, Marcos Baez, Carlos Rodriguez, Gregorio Convertino, Grzegorz Kowalik. Idea Management Communities in the Wild: An exploratory study of 166 online communities. CTS 2016.",
@@ -226,6 +239,17 @@ $miembro_10 = array(
 		"descripcion" => ""
 	);
 
+$miembro_11 = array(
+		"nombre" => "Msc. María José García Ascolani<br>",
+		"cargo" => "(U. de Alcalá, España)<br>Investigadora Asociada",
+		"descripcion" => ""
+	);
+
+$miembro_12 = array(
+		"nombre" => "Luis Juan Godoy Bonini<br>",
+		"cargo" => "(OCA S.A., Paraguay)<br>Consultor",
+		"descripcion" => ""
+    );
 
 $propuesta = array(
         "¿Te gustaría trabajar con nosotros?",
