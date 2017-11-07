@@ -116,7 +116,7 @@ $sol_tec_3 = array(
 $sol_tec_4 = array(
 		"nombre" => "Civic CrowdAnalytics",
 		"descripcion" => "Civic CrowdAnalytics es una novedosa herramienta de análisis que aplica Natural Language Processing (NLP) y Machine Learning (ML), como extracción de conceptos, clasificación de ideas, y análisis de sentimientos para analizar contribuciones cívicas de crowdsourcing. Esta herramienta automáticamente organiza las contribuciones en resúmenes y visualizaciones atractivas, que son fáciles de comprender, son accesibles y están interrelacionados.",
-		"url" => "https://pb.appcivist.org/#/v2/home",
+		"url" => "https://github.com/ParticipaPY/civic-crowdanalytics",
 		"img" => "images/civic_crowdanalytics_logo.png"
 	);
 
