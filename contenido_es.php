@@ -108,7 +108,7 @@ $sol_tec_2 = array(
 
 $sol_tec_3 = array(
 		"nombre" => "Participa Aware",
-		"descripcion" => "Plataforma móvil que surge de la necesidad de llegar a un mayor número de ciudadanos y cuya finalidad es motivarlos a participar.  Participa Aware provee un espacio de ideación y propuesta de solución a los problemas inherentes al entorno cotidiano del ciudadano, esto es teniendo en cuenta los tres lugares más frecuentados (Casa, Educación/Trabajo, Distracción), definidos por el usuario.",
+		"descripcion" => "Participa Aware es una aplicación móvil que permite a la ciudadanía involucrarse en discusiones y decisiones vinculadas a contextos cotidianos. La misma parte de la premisa de que existe un interés intrínseco en participar de decisiones y discusiones relacionadas a temas que afectan directamente la vida cotidiana de la persona.",
 		"url" => "https://github.com/ParticipaPY/participa-aware",
 		"img" => "images/participa_aware_logo.png"
 	);
@@ -181,7 +181,7 @@ $reporte_5 = array(
 
 $miembro_3 = array(
 		"nombre" => "Dr. Jorge Saldivar",
-		"cargo" => "(UniTN/UC)<br>Investigador Asociado",
+		"cargo" => "(UC, Paraguay)<br>Investigador Asociado",
 		"descripcion" => "Candidato a doctor en Tecnologías de la Información y Comunicación (TICs) por la Universidad de Trento y la Universidad Católica de Asunción. Su trabajo se centran las áreas de Social Informatics aplicada a los dominios de participación cívica, innovación democrática, crowdsourcing, idea management, y redes sociales. Desde el 2011 es parte del Life Participation Research Group de la Universidad de Trento (Trento, Italia)"
 	);
 
@@ -241,7 +241,7 @@ $miembro_10 = array(
 
 $miembro_11 = array(
 		"nombre" => "Msc. María José García Ascolani<br>",
-		"cargo" => "(U. de Alcalá, España)<br>Investigadora Asociada",
+		"cargo" => "(UC, Paraguay)<br>Investigadora Asociada",
 		"descripcion" => ""
 	);
 

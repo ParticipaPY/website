@@ -110,7 +110,7 @@ $sol_tec_2 = array(
 
 $sol_tec_3 = array(
 		"nombre" => "Participa Aware",
-		"descripcion" => "Mobile platform that emerges from the necesity of engage more citizens with the objective of motivate participation. Participa Aware provides an ideation and solution-porposing space for problems related to the citizen's everyday environment, that is, considering the three most frequented places (Home, Education/Work, Entertainment) defined by the user.",
+		"descripcion" => "Participa Aware is a mobile app that allows citizens to engage in discussions and decisions related to his/her everyday context. It is based on the premise that there is an intrinsic interest on participating on decisions and discussions related to issues that directly affect citizens' daily life.",
 		"url" => "https://github.com/ParticipaPY/participa-aware",
 		"img" => "images/participa_aware_logo.png"
 	);
@@ -183,7 +183,7 @@ $reporte_5 = array(
 
 $miembro_3 = array(
 		"nombre" => "Dr. Jorge Saldivar",
-		"cargo" => "(UniTN/UC)<br>Research Assistant",
+		"cargo" => "(UC, Paraguay)<br>Research Assistant",
 		"descripcion" => "
 			Informatics Engineer and Ph.D. candidate in Information and Communication Technologies at the University of Trento and the Catholic University of Asuncion. He works on Social Informatics, more precisely on topics such as Civic Technology, Democratic Innovation, Crowdsourcing, Idea Management and Social Network Services. His previous experiences include collaboration works with the Hewlett-Packard's Information Analytics Research Group (Palo Alto, USA), with the Data and Democracy Research Group of the University of California (Berkeley, USA), and with researchers from the Brown Institute for Media Innovation of the Stanford University (Palo Alto, USA)"
 	);
@@ -245,7 +245,7 @@ $miembro_10 = array(
 
 $miembro_11 = array(
 		"nombre" => "Msc. María José García Ascolani<br>",
-		"cargo" => "(U. of Alcalá, Spain)<br>Research Assistant",
+		"cargo" => "(UC, Paraguay)<br>Research Assistant",
 		"descripcion" => ""
 	);
 
