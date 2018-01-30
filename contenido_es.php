@@ -113,12 +113,6 @@ $sol_tec_3 = array(
 		"img" => "images/participa_aware_logo.png"
 	);
 
-$sol_tec_4 = array(
-		"nombre" => "Civic CrowdAnalytics",
-		"descripcion" => "Civic CrowdAnalytics es una novedosa herramienta de análisis que aplica Natural Language Processing (NLP) y Machine Learning (ML), como extracción de conceptos, clasificación de ideas, y análisis de sentimientos para analizar contribuciones cívicas de crowdsourcing. Esta herramienta automáticamente organiza las contribuciones en resúmenes y visualizaciones atractivas, que son fáciles de comprender, son accesibles y están interrelacionados.",
-		"url" => "https://github.com/ParticipaPY/civic-crowdanalytics",
-		"img" => "images/civic_crowdanalytics_logo.png"
-	);
 
 $paper_1 = array(
 		"texto" => "Jorge Saldivar, Marcos Baez, Carlos Rodriguez, Gregorio Convertino, Grzegorz Kowalik. Idea Management Communities in the Wild: An exploratory study of 166 online communities. CTS 2016.",

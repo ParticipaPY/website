@@ -115,12 +115,6 @@ $sol_tec_3 = array(
 		"img" => "images/participa_aware_logo.png"
 	);
 
-$sol_tec_4 = array(
-		"nombre" => "Civic CrowdAnalytics",
-		"descripcion" => "Civic CrowdAnalytics is a novel data analytics tool that applies Natural Language Processing (NLP) and Machine Learning (ML), such as concept extraction, idea classification, and sentiment analysis to make sense of crowdsourced civic input. This tool automatically organizes contributions into executive summaries and compelling visualizations, which are easy to comprehend, searchable, and interrelated.",
-		"url" => "https://github.com/ParticipaPY/civic-crowdanalytics",
-		"img" => "images/civic_crowdanalytics_logo.png"
-	);
 
 $paper_1 = array(
 		"texto" => "Jorge Saldivar, Marcos Baez, Carlos Rodriguez, Gregorio Convertino, Grzegorz Kowalik. Idea Management Communities in the Wild: An exploratory study of 166 online communities. CTS 2016.",

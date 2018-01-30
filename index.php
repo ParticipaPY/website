@@ -271,15 +271,6 @@ if ($_GET["lang"] == "en"){
 								</div>
 							</div>
 
-							<div class="row">
-								<div class="2u 8u(narrower)">
-        							<a href="<?php echo $sol_tec_4["url"]; ?>" class="image"><img src="<?php echo $sol_tec_4["img"]; ?>" alt="" height=auto width=90% style="display:block;"/></a>
-								</div>
-								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
-                                    <a href="<?php echo $sol_tec_4["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $sol_tec_4["nombre"]; ?></a> : <?php echo $sol_tec_4["descripcion"]; ?>
-								</div>
-							</div>
-
 						</section>
 
 				</article>
