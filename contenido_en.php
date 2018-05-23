@@ -82,6 +82,13 @@ $exp_prev_3 = array(
 		"url" => "http://reglasclaras.org.py",
 		"img" => "images/reglasclaras.png"
 	);
+
+$exp_prev_4 = array(
+		"nombre" => "Renová el Parque Caballero",
+		"descripcion" => "Renová el Parque Caballero is an initiative carried out together with  Asociación Ciudadela which aims to promote civic participation for creating ideas to help revitalize Parque Caballero. The question we ask ourselves in this initiative is: How can we revitalize Parque Caballero so that it could become again a space for citizen meeting?",
+		"url" => "http://parquecaballero.participa.org.py",
+		"img" => "images/parquecaballero.jpg"
+	);
 // // Plantilla
 // $exp_prev_N = array(
 // 		"nombre" => "",
@@ -202,7 +209,7 @@ $miembro_2 = array(
 
 $miembro_4 = array(
 		"nombre" => "Dr. Cristhian Parra",
-		"cargo" => "(U. of California, Berkeley, USA)<br>Research Assistant",
+		"cargo" => "(UC, Paraguay)<br>Research Assistant",
 		"descripcion" => "Informatics Engineer with a Ph.D. in Information and Communication Technologies from Università degli Studi di Trento. He works as a Postdoctoral Researcher and Software Engineer at the Social Apps Lab of CITRIS, UC Berkeley; and INRIA (Institut National de Recherche en Informatique et en Automatique) of Paris, France. His work is focused in the multidisciplinary realm of Social-Community Informatics and Human-Computer Interactions, using Participatory Design and Participatory Action Research as principal approaches to conducting his research"
 	);
 

@@ -81,6 +81,13 @@ $exp_prev_3 = array(
 		"img" => "images/reglasclaras.png"
 	);
 
+$exp_prev_4 = array(
+		"nombre" => "Renová el Parque Caballero",
+		"descripcion" => "Renová el Parque Caballero es una iniciativa del Proyecto Participa, en coperación con la Asociación Ciudadela, que busca promover la participación ciudadana en la generación de ideas para la revitalización del Parque Caballero. En concreto la pregunta que pretendemos responder con esta iniciativa es ¿Cómo podríamos revitalizar el Parque Caballero para que vuelva a ser un espacio de encuentro ciudadano?.",
+		"url" => "http://parquecaballero.participa.org.py",
+		"img" => "images/parquecaballero.jpg"
+	);
+
 // // Plantilla
 // $exp_prev_N = array(
 // 		"nombre" => "",
@@ -198,7 +205,7 @@ $miembro_2 = array(
 
 $miembro_4 = array(
 		"nombre" => "Dr. Cristhian Parra",
-		"cargo" => "(U. of California, Berkeley, EEUU)<br>Investigador Asociado",
+		"cargo" => "(UC, Paraguay)<br>Investigador Asociado",
 		"descripcion" => "Ingeniero Informático con Ph.D. en Tecnologías de la Comunicación y la Información de la Universita de Trento. Se desempeña como Investigador Postdoctoral e Ingeniero de Software en el Social Apps Lab de la Universidad de California, Berkeley, y en el INRIA (Institut National de Recherche en Informatique et en Automatique) de Paris, Francia. Su trabajo se centra en las áreas multidisciplinarias de la Informática Social/Comunitaria y Interacción Humano-Computador, utilizando Diseño Participativo e Investigación Activa-Participativa cómo enfoques principales."
 	);
 

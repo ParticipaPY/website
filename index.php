@@ -225,6 +225,14 @@ if ($_GET["lang"] == "en"){
                                     <a href="<?php echo $exp_prev_3["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_3["nombre"]; ?></a> : <?php echo $exp_prev_3["descripcion"]; ?>
 								</div>
 							</div>
+							<div class="row">
+								<div class="4u 8u(narrower)">
+        							<a href="<?php echo $exp_prev_4["url"]; ?>" class="image"><img src="<?php echo $exp_prev_4["img"]; ?>" alt="" height=auto width=90% style="display:block; padding-top: 1em;"/></a>
+								</div>
+								<div class="8u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    <a href="<?php echo $exp_prev_4["url"]; ?>" class="icon fa-globe" style="color: blue"> <?php echo $exp_prev_4["nombre"]; ?></a> : <?php echo $exp_prev_4["descripcion"]; ?>
+								</div>
+							</div>
 						</section>
 
 <!-- SOLUCIONES TECNOLOGICAS -->
@@ -289,33 +297,15 @@ if ($_GET["lang"] == "en"){
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
-        							<a href="<?php echo $paper_1["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+        							<a href="<?php echo $paper_7["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
 								</div>
 								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
                                     
-                                     <?php echo $paper_1["texto"]; ?>
+                                     <?php echo $paper_7["texto"]; ?>
 								</div>
 							</div>
-							<div class="row">
-								<div class="2u 8u(narrower)">
-        							
-        							<a href="<?php echo $paper_2["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
-								</div>
-								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
-                                    
-                                     <?php echo $paper_2["texto"]; ?>
-								</div>
-							</div>
-							<div class="row">
-								<div class="2u 8u(narrower)">
-        							
-        							<a href="<?php echo $paper_3["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
-								</div>
-								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
-                                    
-                                     <?php echo $paper_3["texto"]; ?>
-								</div>
-							</div>
+
+							
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
@@ -350,14 +340,36 @@ if ($_GET["lang"] == "en"){
 								</div>
 							</div>
 
+
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
-        							<a href="<?php echo $paper_7["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+        							<a href="<?php echo $paper_3["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
 								</div>
 								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
                                     
-                                     <?php echo $paper_7["texto"]; ?>
+                                     <?php echo $paper_3["texto"]; ?>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_1["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_1["texto"]; ?>
+								</div>
+							</div>
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $paper_2["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $paper_2["texto"]; ?>
 								</div>
 							</div>
 
@@ -368,11 +380,33 @@ if ($_GET["lang"] == "en"){
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
-        							<a href="<?php echo $reporte_1["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+        							<a href="<?php echo $reporte_5["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
 								</div>
 								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
                                     
-                                     <?php echo $reporte_1["texto"]; ?>
+                                     <?php echo $reporte_5["texto"]; ?>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_4["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_4["texto"]; ?>
+								</div>
+							</div>	
+
+							<div class="row">
+								<div class="2u 8u(narrower)">
+        							
+        							<a href="<?php echo $reporte_3["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+								</div>
+								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
+                                    
+                                     <?php echo $reporte_3["texto"]; ?>
 								</div>
 							</div>
 
@@ -390,35 +424,15 @@ if ($_GET["lang"] == "en"){
 							<div class="row">
 								<div class="2u 8u(narrower)">
         							
-        							<a href="<?php echo $reporte_3["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
+        							<a href="<?php echo $reporte_1["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
 								</div>
 								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
                                     
-                                     <?php echo $reporte_3["texto"]; ?>
+                                     <?php echo $reporte_1["texto"]; ?>
 								</div>
 							</div>	
 
-							<div class="row">
-								<div class="2u 8u(narrower)">
-        							
-        							<a href="<?php echo $reporte_4["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
-								</div>
-								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
-                                    
-                                     <?php echo $reporte_4["texto"]; ?>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="2u 8u(narrower)">
-        							
-        							<a href="<?php echo $reporte_5["link"]; ?>" class="icon fa-file-pdf-o" style="color: blue; font-size: 3em;"> </a>
-								</div>
-								<div class="10u 12u(narrower)" style="font-size: 10pt; text-align: justify;">
-                                    
-                                     <?php echo $reporte_5["texto"]; ?>
-								</div>
-							</div>							
+													
 						</section>
 
 				</article>
