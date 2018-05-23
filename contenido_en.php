@@ -146,8 +146,13 @@ $paper_6 = array(
 		"link" => "https://hal.inria.fr/hal-01519127/file/20170430_ComTech-AppCivist-Paper-CameraReady.pdf"
 	);
 
+$paper_7 = array(
+		"texto" => "Jorge Saldivar, Cristhian Parra, Marcelo Alcaraz, Rebeca Arteta, Luca Cernuzzi. Civic Technology for Social Innovation, A Systematic Literature Review. Computer Supported Cooperative Work (CSCW). 2018",
+		"link" => "https://link.springer.com/article/10.1007/s10606-018-9311-7"
+	);
+
 $reporte_1 = array(
-		"texto" => "Jorge Saldivar, Cristhian Parra, Marcelo Alcaraz, Rebeca Arteta, LucaCernuzzi. Estudio de la literatura: Tecnologías utilizadas para promover la participación ciudadana en la innovacióndel sector público. Reporte Técnico D1 - Proyecto Participa. 2016",
+		"texto" => "Jorge Saldivar, Cristhian Parra, Marcelo Alcaraz, Rebeca Arteta, Luca Cernuzzi. Estudio de la literatura: Tecnologías utilizadas para promover la participación ciudadana en la innovación del sector público. Reporte Técnico D1 - Proyecto Participa. 2016",
 		"link" => "https://www.dropbox.com/s/3mt5xe1lo28eb5u/Reporte%20T%C3%A9cnico%20D1%20-%20Estudio%20Literatura.pdf?dl=0"
 	);
 
@@ -157,7 +162,7 @@ $reporte_2 = array(
 	);
 
 $reporte_3 = array(
-		"texto" => "Camilo Caballero, Jorge Saldivar,Cristian Parra, Marcelo Alcaraz, Rebeca Arteta, Luca Cernuzzi. Participa en tu educación: Estudio piloto sobre innovación en el sector educativo paraguayo. Reporte Técnico D3 - Proyecto Participa. 2016",
+		"texto" => "Camilo Caballero, Jorge Saldivar,Cristian Parra, Marcelo Alcaraz, Rebeca Arteta, Luca Cernuzzi. Participa en tu Educación: Estudio piloto sobre innovación en el sector educativo paraguayo. Reporte Técnico D3 - Proyecto Participa. 2016",
 		"link" => "https://www.dropbox.com/s/oaquc9vv3pvbjvv/ReporteTecnicoD3-EstudioPiloto.pdf?dl=0"
 	);
 
